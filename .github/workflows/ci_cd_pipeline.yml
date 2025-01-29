@@ -38,12 +38,18 @@ jobs:
           name: trained-model
           path: random_forest_beer_model.pkl
 
-      # Step 6: Debug before committing logs
-      - name: Debug before committing logs
+      # Debugging ignored files
+      - name: Check ignored files
         run: |
-          echo "Debugging log changes before commit:"
+          echo "Checking if logs/*.txt are ignored:"
+          git check-ignore -v logs/*.txt || echo "No files in logs/ are ignored"
+
+      # Step 6: Debug file status before commit
+      - name: Debug file status before committing logs
+        run: |
+          echo "Debugging file status before commit:"
           git status
-          ls -l logs
+          ls -l logs/
 
       # Step 7: Commit and push updated logs
       - name: Commit and push updated logs
@@ -54,40 +60,34 @@ jobs:
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
-          
           echo "Stashing uncommitted changes"
           git stash || echo "No changes to stash"
-          
-          echo "Pulling latest changes"
           git pull origin main --rebase
-          
           echo "Popping stashed changes"
           git stash pop || echo "No stash to apply"
-          
-          echo "Checking status and adding changes"
-          git status
-          git add logs/*.txt || echo "No files to add"
-          
+          echo "Adding log files"
+          git add -f logs/*.txt
           echo "Committing changes"
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
-          
           echo "Pushing changes to remote repository"
           git push origin main || echo "Push failed, please check permissions"
 
-      # Step 8: Debug after push
+      # Step 8: Debug file status after commit
+      - name: Debug file status after commit
+        run: |
+          echo "Debugging file status after commit:"
+          git status
+          git log -1
+          ls -l logs/
+
+      # Step 9: Verify state after push
       - name: Verify after push
         run: |
           echo "Verifying state after push:"
           git status
+          echo "Checking last commit:"
           git log -1
-          ls -l logs
-
-      # Step 9: Debug Git Remote
-      - name: Debug Git Remote
-        run: |
-          echo "Verifying Git remote and credentials before pushing logs"
-          git remote -v
-          git config --list
+          ls -l logs/
 
       # Step 10: Deployment step (placeholder)
       - name: Deploy model
