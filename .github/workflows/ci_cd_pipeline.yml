@@ -46,7 +46,9 @@ jobs:
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
+          git stash  # Accantona temporaneamente le modifiche
           git pull origin main --rebase  # Sincronizza con il branch remoto
+          git stash pop || echo "No stash to apply"  # Ripristina le modifiche accantonate
           git add logs/*.txt  # Aggiunge i file di log aggiornati
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
           git push origin main
