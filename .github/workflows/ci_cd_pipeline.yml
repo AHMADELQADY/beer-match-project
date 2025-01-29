@@ -38,7 +38,18 @@ jobs:
           name: trained-model
           path: random_forest_beer_model.pkl
 
-      # Step 6: Deployment step (placeholder)
+      # Step 6: Commit and push updated logs
+      - name: Commit and push updated logs
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.email "elqadyahmed@gmail.com"
+          git config --global user.name "AHMADELQADY"
+          git add logs/*.txt
+          git commit -m "Updated logs after CI/CD execution"
+          git push origin main
+
+      # Step 7: Deployment step (placeholder)
       - name: Deploy model
         run: |
           echo "Deployment logic goes here. Example: Docker, Streamlit, or FastAPI."
