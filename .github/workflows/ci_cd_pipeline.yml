@@ -33,11 +33,11 @@ jobs:
           name: trained-model
           path: random_forest_beer_model.pkl
 
-      - name: Debug logs (before commit)
+      - name: Debug before push
         run: |
-          echo "Checking logs before committing changes:"
-          git status
-          ls logs/
+          echo "Verifying Git remote and credentials before pushing logs"
+          git remote -v
+          git config --list
 
       - name: Commit and push updated logs
         env:
@@ -53,9 +53,9 @@ jobs:
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
           git push origin main || echo "Push failed, please check permissions"
 
-      - name: Debug logs (after commit)
+      - name: Debug logs (after push)
         run: |
-          echo "Checking logs after committing changes:"
+          echo "Checking logs after push:"
           git status
           ls logs/
 
