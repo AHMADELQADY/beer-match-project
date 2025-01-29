@@ -11,27 +11,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
+      # Step 4: Train model
       - name: Train model
         run: |
           python train.py
 
+      # Step 5: Upload trained model
       - name: Upload trained model
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: trained-model
           path: random_forest_beer_model.pkl
 
+      # Step 6: Deployment step (placeholder)
       - name: Deploy model
-        run: echo "Deployment step goes here (e.g., Docker, Streamlit, FastAPI)"
+        run: |
+          echo "Deployment logic goes here. Example: Docker, Streamlit, or FastAPI."
