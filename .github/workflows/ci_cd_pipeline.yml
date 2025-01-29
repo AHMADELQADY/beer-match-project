@@ -11,45 +11,73 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2. Set up Python environment
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
+      # 3. Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
+      # 4. Train model
       - name: Train model
         run: |
           python train.py
 
+      # 5. Debug file status before committing logs
       - name: Debug file status before committing logs
         run: |
           echo "Debugging file status before commit:"
           git status
           ls -l logs/
 
+      # 6. Check ignored files
+      - name: Check ignored files
+        run: |
+          echo "Checking if logs/*.txt are ignored:"
+          git check-ignore logs/*.txt || echo "No files in logs/ are ignored"
+
+      # 7. Stage log files
       - name: Stage log files
         run: |
+          echo "Staging log files:"
           git add logs/*.txt
           git status
 
+      # 8. Commit and push updated logs
       - name: Commit and push updated logs
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          echo "Configuring Git"
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
+          echo "Forcing add and commit logs"
           git add logs/*.txt
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
-          git push origin main --force
+          echo "Pushing changes to remote repository"
+          git remote set-url origin https://AHMADELQADY:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
+          git push origin main || echo "Push failed, please check permissions"
 
+      # 9. Debug permissions and remote
       - name: Debug permissions and remote
         run: |
           echo "Debugging Git Remote and Permissions:"
           git remote -v
           git config --list
+
+      # 10. Debug after push
+      - name: Verify after push
+        run: |
+          echo "Verifying state after push:"
+          git status
+          echo "Checking last commit:"
+          git log -1
+          ls -l logs/
