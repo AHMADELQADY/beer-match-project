@@ -51,7 +51,7 @@ jobs:
           git status
           ls -l logs/
 
-      # Step 7: Commit and push updated logs
+        # Step 7: Commit and push updated logs
       - name: Commit and push updated logs
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -65,8 +65,8 @@ jobs:
           git pull origin main --rebase
           echo "Popping stashed changes"
           git stash pop || echo "No stash to apply"
-          echo "Adding log files"
-          git add -f logs/*.txt
+          echo "Forcing addition of log files"
+          git add -f logs/*.txt  # Forza l'aggiunta dei file nella cartella logs/
           echo "Committing changes"
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
           echo "Pushing changes to remote repository"
