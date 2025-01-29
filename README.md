@@ -15,6 +15,6 @@ We implemented a **FastAPI-based API** to serve the model and a **CI/CD pipeline
 ### 🔧 **Installation Steps**
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/beer-match-project.git
+git clone https://github.com/AHMADELQADY/beer-match-project.git
 cd beer-match-project
 pip install -r requirements.txt
