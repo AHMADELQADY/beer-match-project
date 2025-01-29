@@ -33,39 +33,28 @@ jobs:
           name: trained-model
           path: random_forest_beer_model.pkl
 
-      - name: Debug before pushing logs
+      - name: Debug before committing logs
         run: |
-          echo "Verifying Git remote and credentials before pushing logs"
-          git remote -v
-          git config --list
+          echo "Debugging log changes before commit:"
+          git status
+          ls -l logs/
 
       - name: Commit and push updated logs
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          echo "Configuring Git"
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
-          echo "Stashing uncommitted changes"
           git stash || echo "No changes to stash"
-          echo "Pulling latest changes"
-          git pull origin main --rebase
-          echo "Popping stashed changes"
+          git pull origin main --rebase || echo "Rebase failed"
           git stash pop || echo "No stash to apply"
-          echo "Checking status and adding changes"
-          git status
-          git add logs/*.txt || echo "No logs to add"
+          git add logs/*.txt
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
-          echo "Pushing changes to remote repository"
           git push origin main || echo "Push failed, please check permissions"
 
-      - name: Debug after push
+      - name: Verify after push
         run: |
-          echo "Verifying state after push"
+          echo "Verifying state after push:"
           git status
-          git log -1
-
-      - name: Deploy model
-        run: |
-          echo "Deployment logic goes here. Example: Docker, Streamlit, or FastAPI."
+          ls -l logs/
