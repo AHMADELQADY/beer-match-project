@@ -11,50 +11,85 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
+      # Step 4: Train model
       - name: Train model
         run: |
           python train.py
 
+      # Step 5: Upload trained model
       - name: Upload trained model
         uses: actions/upload-artifact@v4
         with:
           name: trained-model
           path: random_forest_beer_model.pkl
 
+      # Step 6: Debug before committing logs
       - name: Debug before committing logs
         run: |
           echo "Debugging log changes before commit:"
           git status
-          ls -l logs/
+          ls -l logs
 
+      # Step 7: Commit and push updated logs
       - name: Commit and push updated logs
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          echo "Configuring Git"
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
+          
+          echo "Stashing uncommitted changes"
           git stash || echo "No changes to stash"
-          git pull origin main --rebase || echo "Rebase failed"
+          
+          echo "Pulling latest changes"
+          git pull origin main --rebase
+          
+          echo "Popping stashed changes"
           git stash pop || echo "No stash to apply"
-          git add logs/*.txt
+          
+          echo "Checking status and adding changes"
+          git status
+          git add logs/*.txt || echo "No files to add"
+          
+          echo "Committing changes"
           git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
+          
+          echo "Pushing changes to remote repository"
           git push origin main || echo "Push failed, please check permissions"
 
+      # Step 8: Debug after push
       - name: Verify after push
         run: |
           echo "Verifying state after push:"
           git status
-          ls -l logs/
+          git log -1
+          ls -l logs
+
+      # Step 9: Debug Git Remote
+      - name: Debug Git Remote
+        run: |
+          echo "Verifying Git remote and credentials before pushing logs"
+          git remote -v
+          git config --list
+
+      # Step 10: Deployment step (placeholder)
+      - name: Deploy model
+        run: |
+          echo "Deployment logic goes here. Example: Docker, Streamlit, or FastAPI."
