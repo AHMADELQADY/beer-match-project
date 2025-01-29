@@ -1,0 +1,1001 @@
+Età,Grado di alcol,Tipo di birra,Colore,Gusto,Corpo/consistenza,Carbonatazione,Origine
+46.02406252581146,10.592526949201185,Saison,Ambrata,Speziato,Media,Alta,Belga
+46.66125921454787,9.542903743413728,Saison,Ambrata,Speziato,Media,Alta,Belga
+18.39251676543877,4.184633858532305,IPA,Ambrata,Amara,Media,Media,Americana
+56.0760071385986,11.021311648671942,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+39.2436492547157,5.577746290402326,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+38.484808937801446,8.366874267444524,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+53.99345743472036,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+48.22127975109572,9.496044311489182,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+59.55356638544947,9.194089992898308,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+55.9192289345752,10.331855914461006,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+30.244966571108723,4.49305682462887,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+33.00626435742854,6.374056569847572,Porter,Scura,Tostato,Piena,Media,Inglese
+25.69822331361359,3.3934853854217497,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.19632543203027,7.6391168054440675,Porter,Scura,Tostato,Piena,Media,Inglese
+35.06447441481012,4.024533433646129,Porter,Scura,Tostato,Piena,Media,Inglese
+65.52112242837934,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.076766753889096,6.648315394383666,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+34.418319086051355,4.985243269307134,Porter,Scura,Tostato,Piena,Media,Inglese
+45.24075317948857,12.0,Saison,Ambrata,Speziato,Media,Alta,Belga
+40.61416670004343,7.757507710047305,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+41.0375399442579,6.489983601145253,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.12438174661524,5.617200269035664,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.35342711575748,5.918451996385605,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+37.1573082132655,5.3942850769966615,Porter,Scura,Tostato,Piena,Media,Inglese
+35.0488600703257,6.040591691203883,Porter,Scura,Tostato,Piena,Media,Inglese
+30.04557183990381,4.348399652394183,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+31.586016816145357,3.762184501173151,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+56.31711506733986,10.88193147300892,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+44.9173193141573,9.878252491616715,Saison,Ambrata,Speziato,Media,Alta,Belga
+36.5307508323437,7.218761851697317,Porter,Scura,Tostato,Piena,Media,Inglese
+60.08228398927543,10.065480375065352,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+56.61227825798865,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+29.559955513303017,5.130740577286091,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+44.82981537747507,9.546771950672724,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.82317058396191,8.073317967188403,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+25.076821891060256,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.54993452852076,7.622849932347499,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+49.63903383418092,9.159329803364248,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+45.51360010656972,9.467299160338088,Saison,Ambrata,Speziato,Media,Alta,Belga
+38.29661756064485,6.944452301103381,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+46.22103369552535,10.582097703468616,Saison,Ambrata,Speziato,Media,Alta,Belga
+34.814712341122295,5.870179300266574,Porter,Scura,Tostato,Piena,Media,Inglese
+36.47117032749361,5.7906763228481335,Porter,Scura,Tostato,Piena,Media,Inglese
+59.90470446761305,9.27902152577034,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+40.47897982574639,7.333662105286948,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+19.009463674869316,3.433702270397228,IPA,Ambrata,Amara,Media,Media,Americana
+24.34858199638555,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.71095996820349,8.44426331148604,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+26.317394065634325,3.1975996046924,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.72167206404323,6.870948228782771,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+21.477894044741515,3.4817297817263526,IPA,Ambrata,Amara,Media,Media,Americana
+19.92289829058589,4.341151974816644,IPA,Ambrata,Amara,Media,Media,Americana
+60.59065483069231,10.108703580582908,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.91026430571277,10.440117215449472,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+30.74729360512326,5.610370265433465,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+55.04360244637245,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+55.40373009033661,10.975804393609083,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+59.81312835583864,8.560268941725825,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+60.2438007137712,8.435921369263271,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+60.16645220821306,9.49245126400815,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+24.67836494878262,5.076747983560841,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+44.356481769619855,10.927840128081238,Saison,Ambrata,Speziato,Media,Alta,Belga
+33.59739472820031,7.749576743186939,Porter,Scura,Tostato,Piena,Media,Inglese
+30.624119817052154,5.62834550926428,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+29.84821490496441,5.588317206484577,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+30.024510174258943,5.49799829124545,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+40.36659824609685,6.060120213672644,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+20.361395605508413,5.538036566465969,IPA,Ambrata,Amara,Media,Media,Americana
+25.22391413406466,4.364140429973844,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.6191542610052,12.0,Saison,Ambrata,Speziato,Media,Alta,Belga
+59.82305277250595,8.201702755461547,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+25.99626681944714,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+65.95313663391325,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+65.70821442325656,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.65728548347323,3.197722730778381,IPA,Ambrata,Amara,Media,Media,Americana
+61.55050049281407,8.001645959261209,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+29.284696290740037,5.679597748934675,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+50.25602973431388,8.982690983945513,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+64.89269785599578,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.12637957954641,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+61.846636996047664,7.929915233673848,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+50.198084760767856,7.855639588076057,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+21.14282281451502,4.751933032686774,IPA,Ambrata,Amara,Media,Media,Americana
+24.849944412967474,3.1255764534715422,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.832881919683146,9.146713686433324,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+66.08578632493935,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+28.55191565850268,3.5925362256234448,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+49.37518142230432,8.026091050210834,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+20.361636025047638,3.354880245394876,IPA,Ambrata,Amara,Media,Media,Americana
+26.078680833431296,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+38.33059471887863,7.543360192379935,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+54.86255148537231,11.95287454720294,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+18.93769628627389,4.473592430635182,IPA,Ambrata,Amara,Media,Media,Americana
+23.44341810134025,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.73846657999541,4.17136828118997,IPA,Ambrata,Amara,Media,Media,Americana
+58.998379990105086,8.718899707114046,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+40.37114587337131,6.39601481328418,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+48.30753537028518,9.529550319460611,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+35.19204911649003,5.690883535797498,Porter,Scura,Tostato,Piena,Media,Inglese
+31.441273289066118,3.5641378488205606,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+50.028318376130464,8.029756139495746,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+29.88546015474738,6.237816311973462,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+60.44001445005333,8.49794577564739,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+66.05605680906605,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+56.29699454656111,10.97713193770112,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+63.22696753179312,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+44.79097674271397,9.1494795457907,Saison,Ambrata,Speziato,Media,Alta,Belga
+49.92983428854135,6.339039066484009,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+40.07156623721939,6.522342553234884,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.30027449200742,7.213979910734222,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+43.57818933325816,11.501333651955488,Saison,Ambrata,Speziato,Media,Alta,Belga
+60.096120776940985,8.537724711294958,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+46.185704154663,10.718953310665066,Saison,Ambrata,Speziato,Media,Alta,Belga
+30.443819428146227,5.774634053429336,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+67.64434334701704,10.497029671604846,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.83986720443336,11.671340076450466,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+26.02257043200964,5.439752406339273,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+43.804116937964814,10.44460266822014,Saison,Ambrata,Speziato,Media,Alta,Belga
+48.15912576866835,6.720423033264298,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+40.33849640749441,6.584712086099199,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+59.44107815272841,9.37721187506452,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+21.465648768921557,3.774223699513464,IPA,Ambrata,Amara,Media,Media,Americana
+35.330880232214454,6.833528961608924,Porter,Scura,Tostato,Piena,Media,Inglese
+26.148765700372103,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.36226001574868,8.469003044998182,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+20.82254491210319,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+43.38486818409449,11.164739354457172,Saison,Ambrata,Speziato,Media,Alta,Belga
+36.08589556583158,6.474698232879953,Porter,Scura,Tostato,Piena,Media,Inglese
+60.12810441491079,8.318948342525118,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+29.74743184860684,3.7522168180351514,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+40.50091718762438,6.022444755201449,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+45.77836107616664,9.448814283671467,Saison,Ambrata,Speziato,Media,Alta,Belga
+29.79187774964273,4.506999065341168,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+35.949554135441325,4.5151020315500965,Porter,Scura,Tostato,Piena,Media,Inglese
+49.27286282417513,7.752481364448495,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+59.44777695571903,9.63293181775551,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+18.08122878470096,3.9734861245507833,IPA,Ambrata,Amara,Media,Media,Americana
+60.583928185325966,8.64070790921294,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+55.18958161659874,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+19.964173960890047,5.564643655814006,IPA,Ambrata,Amara,Media,Media,Americana
+53.93760647185312,11.428307097207648,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+46.52846842641253,10.507835756289625,Saison,Ambrata,Speziato,Media,Alta,Belga
+30.32271856033809,4.172769056447677,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+60.84064354898872,8.34737602069761,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+50.9240270192069,7.81509786355701,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+30.954001763493203,5.651391251305798,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+35.459972142939115,5.322284630247894,Porter,Scura,Tostato,Piena,Media,Inglese
+39.89296964004544,5.964757677580626,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+55.31917451041918,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+27.08837470478073,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+29.338213535231613,5.852433334796224,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+67.07408266974997,11.080615408413577,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+61.38215899103753,9.648709887589645,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+29.07306952842192,4.9404746439382,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+19.31997527842151,4.232253697161004,IPA,Ambrata,Amara,Media,Media,Americana
+42.06074792488199,8.755340842443204,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+50.109394794604896,8.725766623898693,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+38.405572341205634,6.400624977046228,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+25.49403018628274,3.260673765823907,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+46.88458630593461,11.543243528272187,Saison,Ambrata,Speziato,Media,Alta,Belga
+39.34816389219784,7.047398671316414,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+41.64496771350128,6.750963960443622,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+20.473237624573542,3.927171087343128,IPA,Ambrata,Amara,Media,Media,Americana
+24.53229879868811,3.346503881730716,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.633431532301096,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.68094606433338,10.203974143196511,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+55.70945181713904,10.564513629430156,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+37.96187546482214,5.991913689082596,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+55.63472146856177,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+20.791031947043045,3.090612545205261,IPA,Ambrata,Amara,Media,Media,Americana
+24.67965269180568,3.4241659464019163,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.927989878419663,5.003532897892024,IPA,Ambrata,Amara,Media,Media,Americana
+60.28916864390782,11.455300139910896,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+54.345924316872576,9.169367103143545,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+29.514636452170897,5.081874139386323,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+45.323167714184784,9.85239741370133,Saison,Ambrata,Speziato,Media,Alta,Belga
+58.64014385902008,9.74625356602722,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+50.429618219132585,8.20768768716311,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+48.9189366724001,8.615935606944264,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+59.983577103927246,10.188393273448083,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.48238870096383,9.2237879516389,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+66.12605025077217,11.948606276411514,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.21319662823769,10.24803066826118,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+35.38857860453096,8.492999517432791,Porter,Scura,Tostato,Piena,Media,Inglese
+38.37245756211684,7.048084946661382,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+29.2074792615673,4.885263558533101,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+23.705318524279093,4.16082678737852,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+40.01841837918956,8.676437312275283,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+18.929107501938887,4.482472415243185,IPA,Ambrata,Amara,Media,Media,Americana
+25.597400069849854,3.701172742310898,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.99202735868338,8.479944138890026,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+55.07005216311318,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+49.42436217376223,8.122009814645361,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+55.36728731340134,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+64.35851840477704,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+24.37443729849047,3.395803533437409,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.00069776770509,10.495225078771783,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+58.655549488965725,8.081348053515802,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+24.00860765054369,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.57981318290414,8.718215391139493,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+32.12215619701264,6.032465260551147,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+60.65020117795866,8.900824136220617,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+28.993982618500297,3.785811387212268,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+64.87146248856106,10.118150954502362,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+60.642722759867546,10.329152530132433,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+66.73251499948509,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.298752908365685,10.248208949904816,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+61.19504662892484,7.476813095216225,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+30.280991867735032,4.377300480179406,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+62.8643257860213,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+30.310907565598004,6.475356216949552,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+38.12920807897415,6.648486515958691,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+50.19584525509768,7.021627222384968,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+44.83287828621359,10.2825799504883,Saison,Ambrata,Speziato,Media,Alta,Belga
+30.570890510693168,6.135565640180599,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+20.09707754934804,4.968644990532889,IPA,Ambrata,Amara,Media,Media,Americana
+39.42322866943167,7.755391225825756,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+37.93255789996012,6.910879960487212,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+25.39922312260528,3.647195939702741,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.920358608754285,11.452371796249734,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+56.18738605156475,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+44.2831776793972,8.13346338292694,Saison,Ambrata,Speziato,Media,Alta,Belga
+22.500594285126425,5.290942572590742,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.02412674702267,9.05364179660784,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+45.66288126866741,11.173473857485323,Saison,Ambrata,Speziato,Media,Alta,Belga
+34.78655712906979,7.490726136849952,Porter,Scura,Tostato,Piena,Media,Inglese
+54.76106790083031,10.633175588185312,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+59.428821010217206,9.57258278135616,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+55.33198033056902,11.190499679779066,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+43.9278609880144,7.078649516505393,Saison,Ambrata,Speziato,Media,Alta,Belga
+35.53650984357041,5.101532018208963,Porter,Scura,Tostato,Piena,Media,Inglese
+31.30547880715433,5.021003841632759,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+40.0865897874729,6.84432276460792,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.34935743087817,6.512874616235304,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.37710039390218,11.970737186315022,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.83693303605624,11.25509735519355,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.39438446026313,7.826009713546936,Porter,Scura,Tostato,Piena,Media,Inglese
+39.76105195313359,6.092436337958402,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+60.569767280232206,9.447708560017317,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+30.81286211883896,5.629628841923612,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+35.96387911679491,8.210523001591351,Porter,Scura,Tostato,Piena,Media,Inglese
+39.55570673992389,7.377300493044852,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+49.759674601841866,7.625179192450402,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+25.0380034781682,3.1200313267182613,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+61.446977884353736,9.196554776511574,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+39.139586634716046,6.615444455770175,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+25.543600154594436,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+51.665474444462575,9.01437006501813,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+29.10158532865164,5.491919171506506,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+35.160573981049865,6.003046020153414,Porter,Scura,Tostato,Piena,Media,Inglese
+25.61277390506257,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+51.88202449647503,9.345420046154976,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+26.727543170100716,3.436323669674032,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.594754341665286,3.853415558780308,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.22712233217639,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.37303294221224,9.812448557996928,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+58.995859233247934,8.232202434895871,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+45.1408862469112,8.231560634437148,Saison,Ambrata,Speziato,Media,Alta,Belga
+38.46588582926438,8.27767682189851,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+44.21510168691776,10.648280433843858,Saison,Ambrata,Speziato,Media,Alta,Belga
+34.8887739386513,5.09609235853521,Porter,Scura,Tostato,Piena,Media,Inglese
+29.684730755359656,5.758969220493268,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+48.59248830528218,7.222183312409125,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+25.381935452231552,3.4300416471910697,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+18.67181395110157,4.196861235869124,IPA,Ambrata,Amara,Media,Media,Americana
+45.69638744745672,10.955305208570511,Saison,Ambrata,Speziato,Media,Alta,Belga
+40.82940558118349,4.788864690992115,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+64.4378319734217,11.790778126255471,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.972695460490065,5.066732040926804,Porter,Scura,Tostato,Piena,Media,Inglese
+49.74502278257914,9.503992988582688,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+54.819520086409376,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+24.311849654822275,5.252435805344309,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.96531511261322,9.23421473253652,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+47.349030191606985,9.091506851922462,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+40.33231401197959,6.251513463443446,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+20.17318092585118,4.3853173797288365,IPA,Ambrata,Amara,Media,Media,Americana
+24.740957854179296,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.22745993460413,5.307142754282428,IPA,Ambrata,Amara,Media,Media,Americana
+66.61222062825543,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.7388104808875,11.615367484013053,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+41.62861554557129,5.619898541785108,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+25.998010109859653,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.6218099622172,6.429775280109544,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+26.64201516013637,4.009817089342635,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.536582307187537,3.534270246429743,IPA,Ambrata,Amara,Media,Media,Americana
+54.25752941430195,9.679977488779294,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+59.55449747859923,10.453384477117702,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+46.32819414184906,10.55623000940066,Saison,Ambrata,Speziato,Media,Alta,Belga
+21.4027943109361,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+44.43575240134261,10.184551303197036,Saison,Ambrata,Speziato,Media,Alta,Belga
+48.4433708264761,8.606009951345639,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+36.22766899247329,4.790358981308795,Porter,Scura,Tostato,Piena,Media,Inglese
+55.97519762978243,11.501094169939844,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+19.16078247677736,3.690787624148786,IPA,Ambrata,Amara,Media,Media,Americana
+43.47434368542991,11.262584103427182,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.0184339330654,8.347581705361671,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+39.73012506470663,6.021236284217693,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+64.45127509225904,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.8318561814152,11.527909422302873,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+43.953089017318064,10.536652752527289,Saison,Ambrata,Speziato,Media,Alta,Belga
+44.77351590115017,9.04056076327652,Saison,Ambrata,Speziato,Media,Alta,Belga
+44.39778793963822,10.468774256075024,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.70775193545548,7.437533224105732,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+24.809317599236653,3.217432873179723,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+36.3017412893988,7.561511196726853,Porter,Scura,Tostato,Piena,Media,Inglese
+59.510560557481774,10.044160877069071,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+28.67976679297936,6.831458765854354,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+64.56361410947343,11.890390196074168,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.608241850956176,10.077589815501495,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+55.32307927311603,10.747646497873712,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+63.4291238479315,10.873232531090196,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+56.2171585208255,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+64.52616065292908,11.985547729121722,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.09426769913738,11.34623366135118,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.060230209941025,6.463242112485286,IPA,Ambrata,Amara,Media,Media,Americana
+35.028181157369126,5.990881003355796,Porter,Scura,Tostato,Piena,Media,Inglese
+20.214093744130203,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+30.06980208499002,4.61468640313824,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+50.59310125796839,7.690453560686009,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+45.02079370767541,9.271997058770866,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.38019785100596,8.610585745283823,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+55.35063009927356,11.489187130147664,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+29.528068134210567,6.088950596967366,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+36.20041390794442,5.343105721028604,Porter,Scura,Tostato,Piena,Media,Inglese
+36.09131012059427,6.609138120907177,Porter,Scura,Tostato,Piena,Media,Inglese
+58.55198609958376,6.801194043379918,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+54.06456129795541,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+61.54750520133006,10.79587767309552,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+25.07863519031609,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.980580394112266,10.696820217165724,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+20.241962271566035,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+52.57335980324986,8.059218434014488,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+37.01338724752662,6.1365353310827375,Porter,Scura,Tostato,Piena,Media,Inglese
+65.5462842480037,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.64768853810069,5.523029856408026,IPA,Ambrata,Amara,Media,Media,Americana
+29.17100498907793,4.439818959803031,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+19.153206281931595,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+30.357015485965047,4.307090404739346,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+20.013001891877902,5.453534077157316,IPA,Ambrata,Amara,Media,Media,Americana
+25.918316606002318,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+18.80869650279735,4.65655360863383,IPA,Ambrata,Amara,Media,Media,Americana
+38.93237957061741,6.857620514978707,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+24.01751260646169,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+48.71003910025895,6.704921227936384,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+43.07888080845524,8.119574911434576,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+54.35645016768254,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+51.24608519249763,5.9266097675918505,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+25.5228354880355,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.29159323308954,10.486285607387172,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.0678555105274,11.85277367512222,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+59.75876394214367,9.352055396514295,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+50.17086543812794,7.81601666364732,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+66.30434024287815,10.337508011964326,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.05664992489711,6.529692754356731,Porter,Scura,Tostato,Piena,Media,Inglese
+25.638730222029185,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+66.10095963499857,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.16764442689577,9.471415556386404,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+41.00629280921444,6.423108130476852,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+40.235614558108566,7.770865193886967,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+54.75393751187005,10.156753404683808,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+20.29307247329868,3.285648581973632,IPA,Ambrata,Amara,Media,Media,Americana
+19.191506397106814,3.498242956415464,IPA,Ambrata,Amara,Media,Media,Americana
+35.43693816974635,7.190646274786341,Porter,Scura,Tostato,Piena,Media,Inglese
+28.480630034045987,4.5157659271337485,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+23.307043185804616,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.10420110395188,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.708188731084455,9.436809191303343,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+25.65232287841342,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+44.751308873816456,11.607345576019991,Saison,Ambrata,Speziato,Media,Alta,Belga
+44.265408423201954,9.18974756298562,Saison,Ambrata,Speziato,Media,Alta,Belga
+27.876104275690192,4.474244978319239,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+63.9090335697848,11.589185712045415,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.23378591179075,4.444104353796373,Porter,Scura,Tostato,Piena,Media,Inglese
+46.72696385123341,9.600363814385398,Saison,Ambrata,Speziato,Media,Alta,Belga
+26.683927691457868,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.250492850345875,4.346448209496976,IPA,Ambrata,Amara,Media,Media,Americana
+34.06066460618125,5.855912444278385,Porter,Scura,Tostato,Piena,Media,Inglese
+20.58685709380027,6.190455625809978,IPA,Ambrata,Amara,Media,Media,Americana
+64.94510599938371,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+58.97876718286928,9.708356447299352,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+24.398632356048783,3.319781934142537,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+52.44575197961683,8.129221181975227,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+50.93567839314746,9.27155509499416,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+39.33737624105415,7.570598668593159,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+20.813517217369668,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+24.01037186342966,3.940771187988216,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.259882794248423,4.78182287177731,IPA,Ambrata,Amara,Media,Media,Americana
+52.29676770700076,11.677875319530909,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+40.92617754753165,8.90941664047013,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+53.12482753035425,11.115026079147418,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+34.26447005741024,7.236093175210438,Porter,Scura,Tostato,Piena,Media,Inglese
+28.739116045664957,5.917861947054776,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+30.075804558193727,4.322838288487889,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+43.858310885866494,9.80634054072028,Saison,Ambrata,Speziato,Media,Alta,Belga
+20.496714153011236,3.861735698828815,IPA,Ambrata,Amara,Media,Media,Americana
+53.495279625969,11.760055963689602,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+60.68189148962631,10.846707325736034,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+54.38823090909472,10.962963202951588,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+25.613517972730417,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.03200414906577,5.246582129653817,Porter,Scura,Tostato,Piena,Media,Inglese
+30.34175597577716,6.876170839215886,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+57.170942717497816,10.824114187567664,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+51.14927332628567,7.296823574874113,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+19.02531832977268,4.787084603742452,IPA,Ambrata,Amara,Media,Media,Americana
+40.632781866106285,9.270692857804397,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+18.584629257949587,3.579354677234641,IPA,Ambrata,Amara,Media,Media,Americana
+39.73059316555544,7.717542255795962,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+29.160278157819224,4.400607354555978,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+65.56091944794125,11.70451968197084,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.7528226174794,8.318015752002202,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+34.92950122194091,6.486501643826202,Porter,Scura,Tostato,Piena,Media,Inglese
+54.46467181404608,10.90946671769584,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+54.81710355889516,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+64.80509171964732,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+29.979098406035853,5.117327383308782,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+44.51115057821372,8.880382566710988,Saison,Ambrata,Speziato,Media,Alta,Belga
+19.607891846867844,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+25.916327674702483,3.346488475897993,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+46.28975275408275,10.673181351269958,Saison,Ambrata,Speziato,Media,Alta,Belga
+44.63504727045712,9.160790332660994,Saison,Ambrata,Speziato,Media,Alta,Belga
+44.77352110809847,10.367365506816178,Saison,Ambrata,Speziato,Media,Alta,Belga
+44.677320161157866,9.749166983544953,Saison,Ambrata,Speziato,Media,Alta,Belga
+18.98716887966557,4.314247332595274,IPA,Ambrata,Amara,Media,Media,Americana
+43.984178181021605,10.061679849847971,Saison,Ambrata,Speziato,Media,Alta,Belga
+26.59450506322497,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.35403582087547,10.200807993349748,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+18.89366502599397,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+40.005243699718186,7.046980593764742,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+59.37685947357524,8.444522880839745,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+40.32692737376416,6.780899471191136,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+45.53829607904963,11.0725073373098,Saison,Ambrata,Speziato,Media,Alta,Belga
+34.91171795164875,8.579709337654318,Porter,Scura,Tostato,Piena,Media,Inglese
+55.082439752934505,9.54244850053507,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+45.17644155527722,9.632972160916678,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.48100923173672,8.223884024279132,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+40.64537594958514,8.368631557532348,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+64.90141186771574,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.398293387770604,5.852278184508938,IPA,Ambrata,Amara,Media,Media,Americana
+45.76608027838469,11.226933223884307,Saison,Ambrata,Speziato,Media,Alta,Belga
+45.181021558703705,8.703168052044154,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.18676676447708,7.244617067646677,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+19.297946906122647,3.672337853402232,IPA,Ambrata,Amara,Media,Media,Americana
+50.49331790088089,8.184836123694874,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+52.5600845382688,7.90394010027535,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+30.09767609854883,4.226990216144533,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+40.71161487808889,5.8753579081621305,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+60.65854427267283,11.010204538766349,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.482711549899626,10.40934744018558,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+44.86154401601623,8.775701763710634,Saison,Ambrata,Speziato,Media,Alta,Belga
+33.82988697394064,4.19801956241998,Porter,Scura,Tostato,Piena,Media,Inglese
+60.342725346377705,9.456753219153784,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+32.18980293321767,4.191701714644848,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+63.90960092255715,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.65436565635406,7.944415329089545,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+49.01039517974142,7.874213079900352,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+55.123204806784486,11.551485376040468,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+54.55267810434125,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+35.70810867668859,6.956702316794584,Porter,Scura,Tostato,Piena,Media,Inglese
+59.95984204935566,7.569224897881952,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+40.576556963055765,7.311250154543536,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+60.984322398476586,8.78601115577449,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+18.0,4.821902504375224,IPA,Ambrata,Amara,Media,Media,Americana
+33.81240158097049,6.309820710227028,Porter,Scura,Tostato,Piena,Media,Inglese
+55.99831089814796,10.568379687281952,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+25.771698710648344,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.47547973372023,8.489374561227917,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+29.98148686400761,4.711341361079862,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+49.96501150950304,9.77080063563551,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+54.77653401762815,10.650683203881805,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+39.751035851520925,7.971570950954355,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+49.84199210142101,7.57311893005258,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+19.75461188399713,3.24626383564251,IPA,Ambrata,Amara,Media,Media,Americana
+35.081829358547566,5.901110346808857,Porter,Scura,Tostato,Piena,Media,Inglese
+28.62233063204291,4.062174960084877,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+44.86598283332708,10.014688194729198,Saison,Ambrata,Speziato,Media,Alta,Belga
+30.975119733417756,4.8529426184978615,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+55.02421945667276,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+44.47138331825024,10.586364018755091,Saison,Ambrata,Speziato,Media,Alta,Belga
+34.32650937575613,6.278994162223802,Porter,Scura,Tostato,Piena,Media,Inglese
+44.17240977935128,10.086143883046375,Saison,Ambrata,Speziato,Media,Alta,Belga
+46.49268856895952,9.728876398957432,Saison,Ambrata,Speziato,Media,Alta,Belga
+45.08840688629185,11.477530081055262,Saison,Ambrata,Speziato,Media,Alta,Belga
+38.96275384567355,6.809661321916392,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+45.736843897092434,9.718672442881786,Saison,Ambrata,Speziato,Media,Alta,Belga
+29.17450280320749,4.678614158347006,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+48.98789562473984,6.345143328134231,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+24.246035411133324,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.40760607576113,6.136009230320184,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+49.47727697948096,9.049009225836889,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+19.216746707663763,3.677938483794324,IPA,Ambrata,Amara,Media,Media,Americana
+49.46024031969064,7.221695274597687,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+39.51239377592751,6.56744181218038,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+55.57963317321357,11.325796316582167,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+45.91358462623325,9.196821049319656,Saison,Ambrata,Speziato,Media,Alta,Belga
+30.51934651424117,6.532738913002578,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+45.224684725751885,10.93259083187309,Saison,Ambrata,Speziato,Media,Alta,Belga
+59.387211309515614,8.612298440064016,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+34.42348959927328,3.40895770785509,Porter,Scura,Tostato,Piena,Media,Inglese
+63.020700189624215,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.75425693591406,7.72727643025233,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+21.57921281550739,4.7674347291529084,IPA,Ambrata,Amara,Media,Media,Americana
+58.41609717651428,9.760414656144295,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+44.77874637641423,9.72318670011108,Saison,Ambrata,Speziato,Media,Alta,Belga
+19.53936122904021,5.057122226218915,IPA,Ambrata,Amara,Media,Media,Americana
+58.74846057580955,10.44376460407326,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+60.19652116970147,9.709003757588512,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+31.158110873500068,5.791662693962936,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+30.87232063672068,5.183342005738352,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+61.06667468958916,10.169295590445673,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+20.0917607765355,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+41.20121392216394,6.591924626978448,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+40.3944521423783,6.5790155191797375,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+50.40825275571447,6.297416395762159,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+45.05701312489708,10.268592278863258,Saison,Ambrata,Speziato,Media,Alta,Belga
+40.83569211206514,5.870293145342382,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+59.9544139836445,9.243339449322692,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+26.049552715319336,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+61.50339830176715,9.877362290575672,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+30.686260190374515,3.3872841288103483,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+29.41063524305579,5.849602097021025,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+51.02915563732565,8.472597482413043,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+40.38406544893931,6.967305251905907,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+45.466429982433525,9.964358517702516,Saison,Ambrata,Speziato,Media,Alta,Belga
+49.96044484614335,8.681500697372625,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+20.82206015999449,5.896792982653947,IPA,Ambrata,Amara,Media,Media,Americana
+26.758732659930928,3.9756123586657104,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+60.13296967414688,8.299879185060826,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+61.25575612557352,8.105392697780497,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+25.72762954363698,3.0519458858072994,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.21401053949205,4.6687670464422215,Porter,Scura,Tostato,Piena,Media,Inglese
+54.81285573499545,11.985729995679865,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+33.52108843122587,6.183359919779155,Porter,Scura,Tostato,Piena,Media,Inglese
+29.227174785462427,4.763181393259991,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+64.97359424304108,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+40.87112470343169,6.673976467832159,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+19.116142563798867,4.153725105945528,IPA,Ambrata,Amara,Media,Media,Americana
+40.27045682577984,6.949761890550863,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+24.98036220107332,3.5524899544171475,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.827053940076574,7.711708480142343,Porter,Scura,Tostato,Piena,Media,Inglese
+56.10708066928697,10.879618836046404,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+29.240867338446304,5.150393786476208,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+30.515047686306048,8.85273149065472,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+19.780328112162486,4.357112571511746,IPA,Ambrata,Amara,Media,Media,Americana
+50.055724912288696,9.094191518470948,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+40.638592458777374,5.33847993773104,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+25.870067730688756,3.4956818879726046,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+46.54210995256788,12.0,Saison,Ambrata,Speziato,Media,Alta,Belga
+19.80763903521888,4.301547342333612,IPA,Ambrata,Amara,Media,Media,Americana
+30.064280019095463,3.922255222070694,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+47.30311335705843,7.945705133482188,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+21.158595579007404,3.179317681648289,IPA,Ambrata,Amara,Media,Media,Americana
+20.62566734776501,3.142842443583717,IPA,Ambrata,Amara,Media,Media,Americana
+29.269633368282864,5.216458589581975,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+34.2815927344308,6.8949243769444415,Porter,Scura,Tostato,Piena,Media,Inglese
+44.62779322392895,11.088748619704186,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.11422764866204,8.150301761461877,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+60.22213377163372,8.521251378336522,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+49.73111130944517,6.89347409125833,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+31.266911149186623,4.292330534381219,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+61.797686526849525,9.64084286126701,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+24.928398740585937,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.55005209902455,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+65.96945720052673,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+40.25972250172149,6.095683374895591,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.28869362927986,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.1226703159948,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+63.9272569742602,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.32613302224212,6.748886423614697,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+30.54709738117004,4.797807347566106,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+34.38659733645906,5.697530313511872,Porter,Scura,Tostato,Piena,Media,Inglese
+65.63805110144075,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+65.2691269412451,11.65680772450259,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+30.412931454275625,4.436275447196025,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+46.51344974324213,10.630811684554777,Saison,Ambrata,Speziato,Media,Alta,Belga
+40.04852162794483,6.169049883588962,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+44.181801116577695,9.996625542589047,Saison,Ambrata,Speziato,Media,Alta,Belga
+24.975645407739016,5.142270358611864,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.732640077215574,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.86569125852945,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+44.87905185139222,10.419532443907029,Saison,Ambrata,Speziato,Media,Alta,Belga
+54.895550781462525,10.83117827680999,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+44.12201741324344,9.17311964596014,Saison,Ambrata,Speziato,Media,Alta,Belga
+19.110485570374475,3.1841897150345617,IPA,Ambrata,Amara,Media,Media,Americana
+63.806074993600944,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+31.451143607795043,5.959270826085207,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+20.08704706823817,3.700992649534133,IPA,Ambrata,Amara,Media,Media,Americana
+59.36261287269348,10.189016531107551,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.779035826170336,9.02688583899453,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+49.29565630945724,6.591538703636441,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+59.91784882160743,10.117295831588129,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+18.275082167486968,3.437712470759027,IPA,Ambrata,Amara,Media,Media,Americana
+34.45375555174752,6.3918040054025465,Porter,Scura,Tostato,Piena,Media,Inglese
+54.46403655488595,11.808057798281146,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+36.6725723868377,6.419019009366045,Porter,Scura,Tostato,Piena,Media,Inglese
+40.07736830764762,6.138715798671736,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.30805053950411,11.608351432578209,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+41.68714163507256,7.88163975694945,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+37.52835549987271,6.203104744529523,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+66.90119068575301,11.93933918618538,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+31.765454240281095,5.404981710960955,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+36.196571501664494,5.84147042697303,Porter,Scura,Tostato,Piena,Media,Inglese
+64.77514401819192,11.34999741917654,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.13354090478228,5.8475301636194565,Porter,Scura,Tostato,Piena,Media,Inglese
+53.59368253632817,10.916894427371306,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+49.20952554455469,8.471468357135995,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+20.208863595004757,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+42.63706756445816,8.990269295290062,Saison,Ambrata,Speziato,Media,Alta,Belga
+35.12522450264791,5.570594458874747,Porter,Scura,Tostato,Piena,Media,Inglese
+49.45508091319105,8.399136114352071,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+30.19905969557347,4.399783122841205,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+49.967246729784,7.456575228866235,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+33.90768723532742,5.683591550305198,Porter,Scura,Tostato,Piena,Media,Inglese
+43.58163426706697,8.239191188019223,Saison,Ambrata,Speziato,Media,Alta,Belga
+25.20109904671497,4.050654396007612,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+65.96485163309745,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.981765486991595,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+40.52980417791528,8.4415686206579,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+23.610427533236404,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.98469015082701,6.579291499601088,Porter,Scura,Tostato,Piena,Media,Inglese
+54.09629813926987,11.324359281721604,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+20.005113456642466,3.765412866624853,IPA,Ambrata,Amara,Media,Media,Americana
+49.28715421732284,8.106430227691897,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+34.330927261340086,7.039904687396076,Porter,Scura,Tostato,Piena,Media,Inglese
+30.09699596499272,5.595157025436913,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+35.56898307918527,7.628396623128538,Porter,Scura,Tostato,Piena,Media,Inglese
+54.57069777548274,10.307579020126145,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+59.99639746090944,7.841635310807457,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+53.946317580853645,9.932197078420806,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+25.224451818559974,4.047098302612154,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.77653721467415,4.714000494092092,IPA,Ambrata,Amara,Media,Media,Americana
+24.516813537700624,4.573986763290033,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.43655980415767,10.903934841086196,Saison,Ambrata,Speziato,Media,Alta,Belga
+38.69553049949515,7.669672548830039,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+50.86960592010566,9.35563785880495,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+24.011408892849083,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.48473281729447,10.153643345009126,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+65.79348872055222,10.25146802676182,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+23.40700626646833,3.440474737960399,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+23.9037249131048,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.37735063826555,11.194607455237245,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+56.63996452937139,11.742127491071892,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+60.1910990680199,9.046436548156148,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+44.00161456081171,10.301791899819468,Saison,Ambrata,Speziato,Media,Alta,Belga
+41.16778206165981,7.254420843301213,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+30.504987278980455,5.865755194170122,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+65.65590077652976,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.399361310081197,3.708306250206723,IPA,Ambrata,Amara,Media,Media,Americana
+58.8772779784377,9.38240974618405,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+63.77045040554759,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+41.52312407726966,7.538910043684659,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.69695440451073,11.66618051024399,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.30780176889206,6.289831607343374,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+25.10537550614596,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.53052561406505,4.542560043585965,IPA,Ambrata,Amara,Media,Media,Americana
+38.393553679742425,7.203463635867223,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+45.45588777208161,12.0,Saison,Ambrata,Speziato,Media,Alta,Belga
+30.681952971294965,4.689733243406544,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+27.403415585238275,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.18947048892464,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.20056919723094,11.148637349428714,Saison,Ambrata,Speziato,Media,Alta,Belga
+38.81674148733423,4.9607678222399,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.725095786848,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.35377269015619,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+42.57575973972706,10.88404539636105,Saison,Ambrata,Speziato,Media,Alta,Belga
+60.78580015865083,9.425457561784963,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+64.7412039373329,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.0805757657662,5.54993440501754,IPA,Ambrata,Amara,Media,Media,Americana
+49.63638778778614,7.943054376278932,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+47.05620712994032,8.896791634278317,Saison,Ambrata,Speziato,Media,Alta,Belga
+61.07363174985977,7.97348470058894,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+39.93392020135269,5.788983800237544,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+48.88942415453417,9.752270443423622,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+50.75698861664535,7.077834675822374,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+27.075260872625265,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.8339221545489,8.459180079228437,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+20.34361828956846,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+20.324083969394795,3.614917719583684,IPA,Ambrata,Amara,Media,Media,Americana
+63.19894226584726,11.457326200265978,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+48.651814577894285,8.743264094022715,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+28.286865470909124,6.353872374165412,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+59.033023856870784,8.95228864385802,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+19.735343166762043,6.720169166589619,IPA,Ambrata,Amara,Media,Media,Americana
+24.702436496640008,4.37570681331162,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+24.974445929008557,4.172729019259364,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.91163704079466,11.629988970117871,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+40.3376026620752,6.588123033877532,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+56.615375689469445,10.67767953078866,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+32.133033374656264,3.047912200477498,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+45.860473488359744,9.41692256143106,Saison,Ambrata,Speziato,Media,Alta,Belga
+60.28586539072491,9.334456789987025,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+34.70505032170797,7.247742072673734,Porter,Scura,Tostato,Piena,Media,Inglese
+33.89663339382613,3.847109407047517,Porter,Scura,Tostato,Piena,Media,Inglese
+63.41880929796787,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.55979044793104,9.080780725554622,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+54.517256477817966,10.046671391741288,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+35.122297503032286,6.543298029036388,Porter,Scura,Tostato,Piena,Media,Inglese
+24.742623462576656,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.40981865692852,10.758742345381458,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+55.67257370120273,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+29.525054688839045,4.346670767426288,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+21.86577451114476,4.473832920911788,IPA,Ambrata,Amara,Media,Media,Americana
+64.8687430329077,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.96677000935554,11.79188314272746,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.93732090272683,7.955142320501238,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+34.16465294674024,8.145149127773388,Porter,Scura,Tostato,Piena,Media,Inglese
+63.85627379267934,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.547693680750925,6.576120673371044,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+30.95042383818605,4.423096344337597,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+34.442508214992166,4.630197020420923,Porter,Scura,Tostato,Piena,Media,Inglese
+33.1637946268967,6.507991326912544,Porter,Scura,Tostato,Piena,Media,Inglese
+65.95312504537608,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.0350765394199,7.686051459998439,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+64.9812912435541,11.611481546911117,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+66.00058231804297,11.329379790923356,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.89519322002773,3.6351718016819694,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.48613308266331,5.940786478111049,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+49.426337993119766,7.453141058759607,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+66.2657078408647,11.1338251517855,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+60.249383683710754,10.577453279763477,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+50.27996862631982,6.874510952701623,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+34.350722454933994,4.776059733237744,Porter,Scura,Tostato,Piena,Media,Inglese
+39.46974238162756,6.207127167737656,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+34.993929088460106,6.838490774451642,Porter,Scura,Tostato,Piena,Media,Inglese
+66.39246530006433,11.749953485401049,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.517659020469125,7.274256186846534,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+24.376231039304194,4.914031353866786,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.49097495163825,10.734877786049818,Saison,Ambrata,Speziato,Media,Alta,Belga
+55.113270410537766,9.561722021682634,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+64.51693894831656,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+36.21309769997919,6.141716913639905,Porter,Scura,Tostato,Piena,Media,Inglese
+23.774234336997655,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.257550390722763,3.925554084233833,IPA,Ambrata,Amara,Media,Media,Americana
+20.8125258223942,5.356240028570823,IPA,Ambrata,Amara,Media,Media,Americana
+33.79030525715889,6.599928729996204,Porter,Scura,Tostato,Piena,Media,Inglese
+26.399355436586003,3.924633682912769,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+46.19663148664565,9.390217095680615,Saison,Ambrata,Speziato,Media,Alta,Belga
+50.17770100093325,6.664655641289899,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+31.63241130393164,3.5698586220393675,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+52.827330453985965,11.847421677150422,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+55.950307591973576,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+46.66990450435141,10.39467152982298,Saison,Ambrata,Speziato,Media,Alta,Belga
+53.999668675394425,10.322255029475148,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+33.6528737104703,5.028385961489349,Porter,Scura,Tostato,Piena,Media,Inglese
+35.119580368414155,5.026931059118445,Porter,Scura,Tostato,Piena,Media,Inglese
+35.74209537200931,6.299292580406492,Porter,Scura,Tostato,Piena,Media,Inglese
+55.168460976269614,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+54.86736625361743,10.02547069532936,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+34.29800831219325,5.337099082449052,Porter,Scura,Tostato,Piena,Media,Inglese
+30.51503526720866,5.513785950912209,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+61.56552402923434,8.934249738927011,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+33.62809885706864,4.386438602123259,Porter,Scura,Tostato,Piena,Media,Inglese
+29.78231879677278,6.09877685198719,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+27.97485741334239,5.186454314769428,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+39.44635069465282,5.802122107411152,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+64.97347874075093,11.11812534877228,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.050601111168056,10.63238206483739,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+44.1125078221979,9.56254169967659,Saison,Ambrata,Speziato,Media,Alta,Belga
+60.26705026586926,9.889630795623438,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+29.177779604433567,5.243687211491912,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+24.65134786559214,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+53.8209602088402,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+29.891239851543144,5.401711722098941,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+19.986502775262068,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+35.04381147197911,5.852997998371511,Porter,Scura,Tostato,Piena,Media,Inglese
+64.53468954321994,11.894051645695864,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+50.63240773905552,8.97255444962673,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+33.63312130158458,5.775234598107317,Porter,Scura,Tostato,Piena,Media,Inglese
+29.01849134895205,5.46210347426327,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+48.91894345959174,9.053152853332904,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+43.83008316428971,7.127737786718351,Saison,Ambrata,Speziato,Media,Alta,Belga
+31.08305124317528,6.053802052034903,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+35.541462728204785,6.759155160302647,Porter,Scura,Tostato,Piena,Media,Inglese
+45.06699071722487,10.5159392177041,Saison,Ambrata,Speziato,Media,Alta,Belga
+25.150418905143574,3.364961002466225,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.75892858978677,3.281191423969376,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.38756262535956,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.915402117702072,4.3287511096596845,IPA,Ambrata,Amara,Media,Media,Americana
+66.17312463758664,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.267392314071905,6.321697806196013,Porter,Scura,Tostato,Piena,Media,Inglese
+21.88618590121053,4.174577812831839,IPA,Ambrata,Amara,Media,Media,Americana
+32.14394408932532,5.633919022318011,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+20.296120277064578,4.261055272179889,IPA,Ambrata,Amara,Media,Media,Americana
+63.31656180777905,11.194129933503811,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.47654034972589,4.380091354147451,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+57.062524919243145,9.932467085745728,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+55.58669380147528,10.525096343377475,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+38.60143242618086,7.562969236690571,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+55.84062002650455,11.54673356820138,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+50.211017467202616,7.903286888129608,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+20.09965136508764,3.4965243458838007,IPA,Ambrata,Amara,Media,Media,Americana
+59.966873027126205,10.794557863517788,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.55381656678522,7.110459269054469,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+55.19438430157734,10.646833707189312,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+30.89959987543325,5.307299520876609,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+51.84895609494534,9.126565029547756,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+21.03099952249595,4.931280119116199,IPA,Ambrata,Amara,Media,Media,Americana
+19.765846625276662,3.7658630430508193,IPA,Ambrata,Amara,Media,Media,Americana
+40.57707212718054,6.796954613957007,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.23674084345748,5.1951178993354805,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.1598563919974,10.972324859074044,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.56550964563154,8.239237240844183,Saison,Ambrata,Speziato,Media,Alta,Belga
+64.4043387059565,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+47.0615035766364,11.208366230593144,Saison,Ambrata,Speziato,Media,Alta,Belga
+29.52896169438168,5.232049937357636,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+34.620872259012515,5.796419639897638,Porter,Scura,Tostato,Piena,Media,Inglese
+56.87329777621755,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+60.60789650971654,9.18660912315636,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+29.987753227153085,4.102745628514168,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+50.01392929191295,7.975874912889997,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+35.91907648298777,5.709725455811348,Porter,Scura,Tostato,Piena,Media,Inglese
+65.55560446600344,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.69196571581426,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+20.058208718446,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+50.27157883719537,6.723251424179691,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+45.72238135782777,9.627166847908232,Saison,Ambrata,Speziato,Media,Alta,Belga
+41.17929718406383,7.067518481410109,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+55.28328787154614,10.741095026295923,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+60.64548418114108,11.16325472330546,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+39.724948302848354,4.698078835264415,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.01427395366446,7.504046515517844,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+44.53396349813176,8.405296932733204,Saison,Ambrata,Speziato,Media,Alta,Belga
+35.01035261984338,4.68816376764984,Porter,Scura,Tostato,Piena,Media,Inglese
+60.20838280794755,6.958265131575709,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+50.4134349032237,9.876795812558068,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+65.80040952522768,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.10818281673752,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.500759790634312,3.8502217421134928,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.226210800896425,6.755345296688583,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+25.05963036992017,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.5353827027016,11.20115965587284,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+54.57364240379446,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+40.181866255058495,7.248220586300336,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+34.82504024330459,5.244254840507155,Porter,Scura,Tostato,Piena,Media,Inglese
+45.39968795175264,9.34864310620817,Saison,Ambrata,Speziato,Media,Alta,Belga
+64.19039648007835,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+43.955190805978965,8.033643410623998,Saison,Ambrata,Speziato,Media,Alta,Belga
+33.75613676460871,5.307094802204093,Porter,Scura,Tostato,Piena,Media,Inglese
+45.428816500330576,10.693105607263144,Saison,Ambrata,Speziato,Media,Alta,Belga
+60.2029230208513,7.484255885002768,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+55.79994190194205,9.383689391563411,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+43.437454143113456,9.470947322653704,Saison,Ambrata,Speziato,Media,Alta,Belga
+24.82737270005918,3.883659937486673,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+24.953079421120812,3.4770408272231217,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+30.357787360348283,5.560784526368234,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+65.25373966149458,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+39.46949885238947,6.42418175935532,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+46.23828307143364,10.021271576736062,Saison,Ambrata,Speziato,Media,Alta,Belga
+66.03254620434166,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+29.281555778747563,4.786552848288153,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+64.21221624809176,11.379152401748884,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.75334162110453,10.381158384882776,Saison,Ambrata,Speziato,Media,Alta,Belga
+55.33848384346169,10.704598589860971,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+41.50235705209603,7.074094780419776,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+62.8481845986707,11.28084668075758,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.63467844868789,6.184680305864909,Porter,Scura,Tostato,Piena,Media,Inglese
+60.938283805976,8.483955271782627,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.95053629034757,9.674819492166604,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+35.67792587133927,5.5120885918542974,Porter,Scura,Tostato,Piena,Media,Inglese
+24.755843364709357,3.964087168288357,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.034083468259226,5.230026768941358,Porter,Scura,Tostato,Piena,Media,Inglese
+31.17944012072129,4.530824347895296,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+30.857659623202014,4.840061470036573,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+65.59355672228087,9.05961136533572,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+30.11351734525125,5.662130674521047,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+54.04487742065065,11.42359906559346,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+63.196860323744055,10.41586405699451,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.633776880932096,6.4137990974514985,Porter,Scura,Tostato,Piena,Media,Inglese
+60.02874482293482,10.278451862607298,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+61.420504247989854,8.429253706250524,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+32.446078865098045,6.934319911239274,Porter,Scura,Tostato,Piena,Media,Inglese
+31.16316375215496,5.010233061019587,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+33.93488633692463,5.694775295645332,Porter,Scura,Tostato,Piena,Media,Inglese
+36.67770081407644,5.4464117582920055,Porter,Scura,Tostato,Piena,Media,Inglese
+24.361038252310497,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.16936082403608,4.58628550309502,Porter,Scura,Tostato,Piena,Media,Inglese
+34.331909546356954,6.992042349536523,Porter,Scura,Tostato,Piena,Media,Inglese
+35.14866745720211,5.662914028881961,Porter,Scura,Tostato,Piena,Media,Inglese
+30.82541634898803,5.813509636000639,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+52.87814510099141,10.392178012905568,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+49.76906546979132,8.696206364813419,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+49.92556657089995,8.620672097550678,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+64.73146935209417,11.108807774584712,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.66522466789346,10.596351536758004,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+20.27669079933002,4.827183249036024,IPA,Ambrata,Amara,Media,Media,Americana
+48.77787219110805,8.712998430172387,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+41.55115197552252,7.1156746342928585,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+39.54063910045976,6.150155630535208,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+66.3103087461196,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.55348504793298,4.856398794323472,IPA,Ambrata,Amara,Media,Media,Americana
+45.79426467962183,8.745710576830751,Saison,Ambrata,Speziato,Media,Alta,Belga
+31.277664895788423,4.40842861116417,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+55.513105798176085,10.740453322416084,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+39.87208240851923,6.044459559399575,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+62.526932425873625,8.469131227079679,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+25.17989415115348,4.392002286344599,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.105525932957985,4.187030305560381,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+45.3074066978091,10.815737212539297,Saison,Ambrata,Speziato,Media,Alta,Belga
+54.07264686580943,11.238368982734784,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+66.18891337147464,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+37.319329539981695,6.393317839394372,Porter,Scura,Tostato,Piena,Media,Inglese
+48.71957064750372,9.754794181984364,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+43.9758131756708,11.854092566334188,Saison,Ambrata,Speziato,Media,Alta,Belga
+55.513907849658914,11.179581781939598,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+62.46971247725367,11.71399577811989,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+35.55832691252172,6.076005391412411,Porter,Scura,Tostato,Piena,Media,Inglese
+20.067528204687925,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+59.4448004733068,10.88115706944059,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+44.89984592352005,9.796326249823034,Saison,Ambrata,Speziato,Media,Alta,Belga
+58.71969560132911,9.872457328280143,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+19.96528823029476,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+40.1202956317119,7.514438834058749,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+40.09933230542923,7.751387123371789,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+45.99604768580581,9.24320491143054,Saison,Ambrata,Speziato,Media,Alta,Belga
+20.331263431403563,4.975545127122359,IPA,Ambrata,Amara,Media,Media,Americana
+19.88435171761176,3.6988963044107113,IPA,Ambrata,Amara,Media,Media,Americana
+55.87129729745725,9.65402031975325,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+61.03184453946864,7.514439626963028,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+63.76565112812008,11.407535740847106,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+55.51120259952498,12.0,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+62.29889812361925,8.63716143956034,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+29.980983792097312,3.997470635362191,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+18.8490064225777,4.375698018345672,IPA,Ambrata,Amara,Media,Media,Americana
+55.07543363890159,9.398034188102832,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+30.324166352488444,4.869856945632315,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+34.39048779784072,5.813028697014554,Porter,Scura,Tostato,Piena,Media,Inglese
+25.30263546523903,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+25.321357215450277,3.421920754235285,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+59.692221765047,9.21915032766394,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+59.32360769794073,10.800940432910815,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+19.09197592447879,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+18.76304928912192,3.0,IPA,Ambrata,Amara,Media,Media,Americana
+60.82048218119736,9.507274031107295,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+26.03028345403184,3.238789159026513,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+18.52147800963257,3.2801557916052912,IPA,Ambrata,Amara,Media,Media,Americana
+30.690143991711118,4.598779528114164,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+49.65731240591965,7.628559134004209,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+19.52082576215471,3.814341023336183,IPA,Ambrata,Amara,Media,Media,Americana
+45.30883301259897,11.702214944635235,Saison,Ambrata,Speziato,Media,Alta,Belga
+40.289774856896415,9.07540079864544,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+51.593186626639394,7.488784323568815,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+45.29355793216663,8.643418195376595,Saison,Ambrata,Speziato,Media,Alta,Belga
+19.83871428833399,4.404050856814538,IPA,Ambrata,Amara,Media,Media,Americana
+59.56550377256769,8.69082787653136,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+24.637559058596867,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+44.97863270565156,9.252788320852176,Saison,Ambrata,Speziato,Media,Alta,Belga
+58.62068077198547,8.269069960058081,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+34.611823181458774,6.170416222375488,Porter,Scura,Tostato,Piena,Media,Inglese
+39.88767195030917,6.779030400466777,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.16865467196672,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+49.66421530070987,9.669021525289391,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+55.88310977714716,10.9221628029872,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+24.93586165340701,3.3287624103034803,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+41.96472513291639,7.035263551971728,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+44.41947655019528,10.588578404420607,Saison,Ambrata,Speziato,Media,Alta,Belga
+34.29498814424159,5.944230922342294,Porter,Scura,Tostato,Piena,Media,Inglese
+19.323077999694043,4.611676288840868,IPA,Ambrata,Amara,Media,Media,Americana
+26.613711269058648,3.45353430151398,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+54.690790922950136,10.247843594409416,Bock,Ambrata,Dolce,Piena,Media,Tedesca
+35.53875599244637,5.079326406920634,Porter,Scura,Tostato,Piena,Media,Inglese
+41.05842448684959,5.2412605135768855,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+65.26712665101148,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+60.3686733088729,8.606661187672639,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+40.83033581654425,6.1439161740911326,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+66.12411271998602,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+26.735963803165248,3.197910783462648,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+63.80636316824352,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+32.31465856667351,3.132734807408252,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+30.224092481810416,5.012592400781795,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+19.45561727547482,4.110922589709866,IPA,Ambrata,Amara,Media,Media,Americana
+58.47447482907526,8.308091930118756,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+61.20650896650836,8.183064329012764,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca
+49.7404086486364,6.496857046881894,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+64.37328277541003,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+64.80266157969267,11.848726716346489,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+34.974973041254856,6.817766299200287,Porter,Scura,Tostato,Piena,Media,Inglese
+49.14164221981879,8.70030987940899,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+44.448141854107554,12.0,Saison,Ambrata,Speziato,Media,Alta,Belga
+29.181779316766526,7.092387275685461,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+49.38848219700805,6.5933389031517775,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+36.39020754901731,6.557810306351862,Porter,Scura,Tostato,Piena,Media,Inglese
+63.89429533151407,11.785078969711265,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+18.449336568933862,4.068562974806027,IPA,Ambrata,Amara,Media,Media,Americana
+24.44969484615458,3.0,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+65.35144820754158,12.0,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+28.799703592944223,4.665498764159052,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+20.96337612924432,4.412780926936498,IPA,Ambrata,Amara,Media,Media,Americana
+24.82692817571613,3.0155790475814674,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+19.47023979623296,4.513267433113356,IPA,Ambrata,Amara,Media,Media,Americana
+38.52141375422016,8.143754043206929,Lager,Chiara,Bilanciato,Leggera,Alta,Tedesca
+34.55671774880849,5.115197285973099,Porter,Scura,Tostato,Piena,Media,Inglese
+65.62157188985606,11.630389663956366,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+32.153182457511555,4.23265243711195,Stout,Scura,Tostato,Piena,Bassa,Irlandese
+64.78886976117231,11.012820472848816,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+44.97248509494936,11.772251596669744,Saison,Ambrata,Speziato,Media,Alta,Belga
+26.38427281851052,3.56390912005236,Wheat Beer,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+47.91807059211628,9.696456368290038,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+20.5219415656169,4.296984673233186,IPA,Ambrata,Amara,Media,Media,Americana
+49.962365297575154,9.103301882016522,Amber Ale,Ambrata,Caramellato,Media,Media,Americana
+64.02834326545872,10.62038183521107,Barleywine,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto,Sconosciuto
+61.57957214573072,8.477139972846732,Pilsner,Chiara,Amaro,Leggera,Alta,Tedesca

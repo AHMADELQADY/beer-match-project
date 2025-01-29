@@ -1,0 +1,1 @@
+2025-01-29 09:56:06,642 - INFO - INPUT: Input: {'Età': 30, 'Grado di alcol': 5.5, 'Colore': np.int64(1), 'Gusto': np.int64(2), 'Corpo/consistenza': np.int64(1), 'Carbonatazione': np.int64(0), 'Origine': np.int64(1)} --> Prediction: Saison
