@@ -3,55 +3,50 @@ name: CI/CD for ML Model
 on:
   push:
     branches:
-      - main  # Esegue il workflow quando si aggiorna la branch principale
-  workflow_dispatch:  # Permette di avviare il workflow manualmente da GitHub
+      - main
+  workflow_dispatch:
 
 jobs:
   train-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
-      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      # Step 4: Train model
       - name: Train model
         run: |
           python train.py
 
-      # Step 5: Upload trained model
       - name: Upload trained model
         uses: actions/upload-artifact@v4
         with:
           name: trained-model
           path: random_forest_beer_model.pkl
 
-      # Step 6: Commit and push updated logs
       - name: Commit and push updated logs
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}  # Il token deve essere configurato nei Secrets
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
-          git pull origin main --rebase  # Sincronizza con il branch remoto
-          git add logs/*.txt  # Aggiunge i file di log aggiornati
-          git diff --cached --exit-code || git commit -m "Updated logs after CI/CD execution"
+          git stash || echo "No changes to stash"  # Accantona temporaneamente modifiche
+          git pull origin main --rebase
+          git stash pop || echo "No stash to apply"  # Ripristina modifiche accantonate
+          git add logs/*.txt
+          git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
           git push origin main || echo "Push failed, please check permissions"
 
-      # Step 7: Deployment step (placeholder)
       - name: Deploy model
         run: |
           echo "Deployment logic goes here. Example: Docker, Streamlit, or FastAPI."
