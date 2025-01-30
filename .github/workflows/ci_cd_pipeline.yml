@@ -26,8 +26,7 @@ jobs:
         run: |
           echo "Installing dependencies..."
           pip install --upgrade pip
-          pip install pandas scikit-learn joblib numpy mlflow
-          pip install -r requirements.txt || echo "No requirements.txt file found"
+          pip install -r requirements.txt
 
       # 4. Ensure directories have proper permissions
       - name: Ensure directory permissions
@@ -43,7 +42,7 @@ jobs:
       - name: Train model
         run: |
           echo "Starting training process..."
-          python train.py
+          sudo python train.py
 
       # 6. Debug file status before committing logs
       - name: Debug file status before committing logs
