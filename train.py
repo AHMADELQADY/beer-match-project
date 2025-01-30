@@ -11,14 +11,17 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.preprocessing import LabelEncoder
 from mlflow.models.signature import infer_signature
 
+# 📂 Configura la directory per il tracking di MLflow
+tracking_dir = os.path.join(os.getcwd(), "mlruns")
+artifact_dir = os.path.join(os.getcwd(), "mlartifacts")
+os.makedirs(tracking_dir, exist_ok=True)
+os.makedirs(artifact_dir, exist_ok=True)
+
+mlflow.set_tracking_uri(f"file://{tracking_dir}")
+
 # 📂 Creazione della cartella per i log
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
-
-# 📂 Configurazione della directory di tracking di MLflow
-mlflow_tracking_dir = os.path.join(os.getcwd(), "mlruns")  # Directory locale
-os.makedirs(mlflow_tracking_dir, exist_ok=True)
-mlflow.set_tracking_uri(f"file://{mlflow_tracking_dir}")
 
 # 🔍 Configurazione del logger per il training
 logging.basicConfig(
@@ -57,7 +60,7 @@ mlflow.set_experiment("BeerMatch_Model_Tracking")
 
 # Creare un esempio di input
 input_example = X_test.iloc[:1]  # Un esempio reale
-signature = infer_signature(X_train, model.predict(X_train) if 'model' in locals() else X_train)
+signature = infer_signature(X_train, model_output=None)  # Firma basata sui dati di input
 
 with mlflow.start_run():
     # 🤖 7. Addestramento del modello
@@ -72,7 +75,8 @@ with mlflow.start_run():
     f1 = f1_score(y_test, y_pred, average="weighted")
 
     # 💾 9. Salvare il modello addestrato
-    joblib.dump(model, "random_forest_beer_model.pkl")
+    model_path = os.path.join(artifact_dir, "random_forest_beer_model.pkl")
+    joblib.dump(model, model_path)
 
     # 📡 10. Logging su MLflow
     mlflow.log_param("n_estimators", 100)

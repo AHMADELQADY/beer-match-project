@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/d735564190124b0e8c20e7f16f5a4a8d/artifacts
+end_time: 1738234338398
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: d735564190124b0e8c20e7f16f5a4a8d
+run_name: intelligent-lark-636
+run_uuid: d735564190124b0e8c20e7f16f5a4a8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738234336856
+status: 3
+tags: []
+user_id: ae
