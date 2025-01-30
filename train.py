@@ -12,7 +12,7 @@ from sklearn.preprocessing import LabelEncoder
 from mlflow.models.signature import infer_signature
 
 # 📂 Configura la directory per il tracking di MLflow
-project_path = "/Users/ae/Desktop/Beer_Match_Project"  # Cambia con il tuo percorso
+project_path = os.getcwd()  # Cambia con il tuo percorso solo se necessario
 tracking_dir = os.path.join(project_path, "mlruns")  # Directory per i dati di tracking
 artifact_dir = os.path.join(project_path, "mlartifacts")  # Directory per gli artifact
 os.makedirs(tracking_dir, exist_ok=True)

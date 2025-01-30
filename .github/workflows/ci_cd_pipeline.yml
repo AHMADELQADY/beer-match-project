@@ -26,32 +26,41 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      # 4. Train model
+      # 4. Ensure directories have proper permissions
+      - name: Ensure directory permissions
+        run: |
+          echo "Ensuring proper permissions for all directories..."
+          chmod -R 755 mlruns
+          chmod -R 755 mlartifacts
+          chmod -R 755 logs
+          ls -ld mlruns mlartifacts logs
+
+      # 5. Train model
       - name: Train model
         run: |
           python train.py
 
-      # 5. Debug file status before committing logs
+      # 6. Debug file status before committing logs
       - name: Debug file status before committing logs
         run: |
           echo "Debugging file status before commit:"
           git status
           ls -l logs/
 
-      # 6. Check ignored files
+      # 7. Check ignored files
       - name: Check ignored files
         run: |
           echo "Checking if logs/*.txt are ignored:"
           git check-ignore logs/*.txt || echo "No files in logs/ are ignored"
 
-      # 7. Stage log files
+      # 8. Stage log files
       - name: Stage log files
         run: |
           echo "Staging log files:"
           git add logs/*.txt
           git status
 
-      # 8. Commit and push updated logs
+      # 9. Commit and push updated logs
       - name: Commit and push updated logs
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
@@ -66,14 +75,14 @@ jobs:
           git remote set-url origin https://AHMADELQADY:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
           git push origin main || echo "Push failed, please check permissions"
 
-      # 9. Debug permissions and remote
+      # 10. Debug permissions and remote
       - name: Debug permissions and remote
         run: |
           echo "Debugging Git Remote and Permissions:"
           git remote -v
           git config --list
 
-      # 10. Debug after push
+      # 11. Debug after push
       - name: Verify after push
         run: |
           echo "Verifying state after push:"

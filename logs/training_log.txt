@@ -14,3 +14,4 @@ HEAD
 2025-01-30 11:55:33,301 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
 2025-01-30 12:01:15,318 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
 2025-01-30 12:06:20,133 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
+2025-01-30 12:10:45,491 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
