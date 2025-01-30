@@ -1,0 +1,35 @@
+artifact_path: beer_match_model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.20.0
+model_size_bytes: 354268
+model_uuid: 5979400fc8884ab684bf7119f9d609e8
+run_id: b8244c91827141a18c46d6c0f92933b9
+saved_input_example_info:
+  artifact_path: input_example.json
+  serving_input_path: serving_input_example.json
+  type: json_object
+signature:
+  inputs: '[{"type": "double", "name": "Et\u00e0", "required": true}, {"type": "double",
+    "name": "Grado di alcol", "required": true}, {"type": "long", "name": "Colore",
+    "required": true}, {"type": "long", "name": "Gusto", "required": true}, {"type":
+    "long", "name": "Corpo/consistenza", "required": true}, {"type": "long", "name":
+    "Carbonatazione", "required": true}, {"type": "long", "name": "Origine", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-01-30 10:13:10.456829'

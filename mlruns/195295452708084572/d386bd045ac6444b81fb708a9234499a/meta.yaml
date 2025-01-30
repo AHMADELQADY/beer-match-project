@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/d386bd045ac6444b81fb708a9234499a/artifacts
+end_time: 1738232318989
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: d386bd045ac6444b81fb708a9234499a
+run_name: caring-hog-403
+run_uuid: d386bd045ac6444b81fb708a9234499a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738232317429
+status: 3
+tags: []
+user_id: ae

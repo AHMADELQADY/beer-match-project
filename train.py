@@ -2,12 +2,14 @@ import logging
 import os
 import pandas as pd
 import joblib
+import numpy as np
 import mlflow
 import mlflow.sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.preprocessing import LabelEncoder
+from mlflow.models.signature import infer_signature
 
 # 📂 Creazione della cartella per i log
 log_dir = "logs"
@@ -39,11 +41,18 @@ joblib.dump(label_encoders, "label_encoders.pkl")
 X = df.drop(columns=["Tipo di birra"])  # Feature set
 y = df["Tipo di birra"]  # Target
 
+# Convertire tutte le colonne in float per evitare problemi con valori mancanti
+X = X.astype(float)
+
 # ✂️ 5. Divisione in training e test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # 🏆 6. MLflow Setup
 mlflow.set_experiment("BeerMatch_Model_Tracking")
+
+# Creare un esempio di input
+input_example = X_test.iloc[:1]  # Un esempio reale
+signature = infer_signature(X_train, X_train)  # Firma basata sui dati di input e output
 
 with mlflow.start_run():
     # 🤖 7. Addestramento del modello
@@ -70,7 +79,12 @@ with mlflow.start_run():
     # 📝 11. Loggare le metriche nel file di log
     logging.info(f"Training completato - Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1-score: {f1:.4f}")
 
-    # 🚀 12. Salvare il modello su MLflow
-    mlflow.sklearn.log_model(model, "beer_match_model")
+    # 🚀 12. Salvare il modello su MLflow con firma e esempio
+    mlflow.sklearn.log_model(
+        sk_model=model,
+        artifact_path="beer_match_model",
+        signature=signature,
+        input_example=input_example
+    )
 
 print("✔ Training completato con successo. Log salvato in logs/training_log.txt e MLflow.")

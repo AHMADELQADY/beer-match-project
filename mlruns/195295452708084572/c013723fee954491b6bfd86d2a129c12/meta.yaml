@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/c013723fee954491b6bfd86d2a129c12/artifacts
+end_time: 1738231862806
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: c013723fee954491b6bfd86d2a129c12
+run_name: dapper-ape-105
+run_uuid: c013723fee954491b6bfd86d2a129c12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738231861193
+status: 3
+tags: []
+user_id: ae
