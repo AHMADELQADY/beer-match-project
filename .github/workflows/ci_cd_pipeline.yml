@@ -24,12 +24,15 @@ jobs:
       # 3. Install dependencies
       - name: Install dependencies
         run: |
+          echo "Installing dependencies..."
+          pip install --upgrade pip
           pip install -r requirements.txt
 
       # 4. Ensure directories have proper permissions
       - name: Ensure directory permissions
         run: |
           echo "Ensuring proper permissions for all directories..."
+          mkdir -p mlruns mlartifacts logs
           chmod -R 755 mlruns
           chmod -R 755 mlartifacts
           chmod -R 755 logs
@@ -38,25 +41,26 @@ jobs:
       # 5. Train model
       - name: Train model
         run: |
+          echo "Starting training process..."
           python train.py
 
       # 6. Debug file status before committing logs
       - name: Debug file status before committing logs
         run: |
-          echo "Debugging file status before commit:"
+          echo "Debugging file status before commit..."
           git status
           ls -l logs/
 
       # 7. Check ignored files
       - name: Check ignored files
         run: |
-          echo "Checking if logs/*.txt are ignored:"
-          git check-ignore logs/*.txt || echo "No files in logs/ are ignored"
+          echo "Checking if logs/*.txt are ignored..."
+          git check-ignore logs/*.txt || echo "No files in logs/ are ignored."
 
       # 8. Stage log files
       - name: Stage log files
         run: |
-          echo "Staging log files:"
+          echo "Staging log files..."
           git add logs/*.txt
           git status
 
@@ -65,28 +69,27 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          echo "Configuring Git"
+          echo "Configuring Git..."
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
-          echo "Forcing add and commit logs"
+          echo "Committing and pushing logs..."
           git add logs/*.txt
-          git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
-          echo "Pushing changes to remote repository"
+          git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit."
           git remote set-url origin https://AHMADELQADY:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
-          git push origin main || echo "Push failed, please check permissions"
+          git push origin main || echo "Push failed, please check permissions."
 
       # 10. Debug permissions and remote
       - name: Debug permissions and remote
         run: |
-          echo "Debugging Git Remote and Permissions:"
+          echo "Debugging Git Remote and Permissions..."
           git remote -v
           git config --list
 
       # 11. Debug after push
       - name: Verify after push
         run: |
-          echo "Verifying state after push:"
+          echo "Verifying state after push..."
           git status
-          echo "Checking last commit:"
+          echo "Checking last commit..."
           git log -1
           ls -l logs/
