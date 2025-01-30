@@ -27,6 +27,7 @@ jobs:
           echo "Installing dependencies..."
           pip install --upgrade pip
           pip install -r requirements.txt
+          pip install pandas  # Assicuriamoci che pandas sia installato
 
       # 4. Ensure directories have proper permissions
       - name: Ensure directory permissions
