@@ -14,14 +14,18 @@ from mlflow.models.signature import infer_signature
 # 📂 Configura la directory per il tracking di MLflow
 tracking_dir = "./mlruns"  # Directory relativa per i dati di tracking
 artifact_dir = "./mlartifacts"  # Directory relativa per gli artifact
-os.makedirs(tracking_dir, exist_ok=True)
-os.makedirs(artifact_dir, exist_ok=True)
+log_dir = "./logs"
+
+def ensure_directories():
+    """Crea le directory necessarie con permessi corretti."""
+    os.makedirs(tracking_dir, exist_ok=True)
+    os.makedirs(artifact_dir, exist_ok=True)
+    os.makedirs(log_dir, exist_ok=True)
+    print(f"Directory create: {tracking_dir}, {artifact_dir}, {log_dir}")
+
+ensure_directories()
 
 mlflow.set_tracking_uri(f"file://{os.path.abspath(tracking_dir)}")
-
-# 📂 Creazione della cartella per i log
-log_dir = "./logs"
-os.makedirs(log_dir, exist_ok=True)
 
 # 🔍 Configurazione del logger per il training
 logging.basicConfig(
@@ -30,31 +34,38 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-# ✅ Assicurati che le directory abbiano i permessi appropriati
-os.chmod(tracking_dir, 0o777)
-os.chmod(artifact_dir, 0o777)
-os.chmod(log_dir, 0o777)
-
 # 📥 1. Caricare il dataset
-df = pd.read_csv("cibo_birra_dataset_completo.csv")
+try:
+    df = pd.read_csv("cibo_birra_dataset_completo.csv")
+    print("Dataset caricato con successo.")
+except FileNotFoundError as e:
+    logging.error("Dataset non trovato: %s", e)
+    raise
 
-# 🛠 2. Preprocessing: Convertire variabili categoriche in numeri
+# 💪 2. Preprocessing: Convertire variabili categoriche in numeri
 categorical_columns = ["Colore", "Gusto", "Corpo/consistenza", "Carbonatazione", "Origine"]
 label_encoders = {}
 
 for col in categorical_columns:
-    le = LabelEncoder()
-    df[col] = le.fit_transform(df[col])
-    label_encoders[col] = le  # Salviamo i LabelEncoders per l'inferenza
+    if col in df.columns:
+        le = LabelEncoder()
+        df[col] = le.fit_transform(df[col])
+        label_encoders[col] = le
+    else:
+        logging.error(f"Colonna mancante nel dataset: {col}")
+        raise ValueError(f"Colonna mancante: {col}")
 
 # 🔥 3. Salvare gli encoder per usarli durante l’inferenza
 joblib.dump(label_encoders, os.path.join(artifact_dir, "label_encoders.pkl"))
 
 # 🔄 4. Separazione delle feature e del target
-X = df.drop(columns=["Tipo di birra"])  # Feature set
-y = df["Tipo di birra"]  # Target
+X = df.drop(columns=["Tipo di birra"], errors='ignore')  # Feature set
+y = df.get("Tipo di birra", None)  # Target
 
-# Convertire tutte le colonne in float per evitare problemi con valori mancanti
+if y is None:
+    logging.error("Colonna 'Tipo di birra' mancante nel dataset.")
+    raise ValueError("Colonna 'Tipo di birra' non trovata nel dataset.")
+
 X = X.astype(float)
 
 # ✂️ 5. Divisione in training e test
@@ -79,7 +90,7 @@ with mlflow.start_run():
     input_example = X_test.iloc[:1]  # Un esempio reale
     signature = infer_signature(X_train, model.predict(X_train))  # Firma basata sui dati di input e output
 
-    # 💾 9. Salvare il modello addestrato
+    # 🗄 9. Salvare il modello addestrato
     model_path = os.path.join(artifact_dir, "random_forest_beer_model.pkl")
     joblib.dump(model, model_path)
 
@@ -90,7 +101,7 @@ with mlflow.start_run():
     mlflow.log_metric("recall", recall)
     mlflow.log_metric("f1_score", f1)
 
-    # 📝 11. Loggare le metriche nel file di log
+    # 🖍️ 11. Loggare le metriche nel file di log
     logging.info(f"Training completato - Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1-score: {f1:.4f}")
 
     # 🚀 12. Salvare il modello su MLflow con firma e esempio
@@ -101,4 +112,4 @@ with mlflow.start_run():
         input_example=input_example
     )
 
-print("✔ Training completato con successo. Log salvato in logs/training_log.txt e MLflow.")
+print("\u2714 Training completato con successo. Log salvato in logs/training_log.txt e MLflow.")
