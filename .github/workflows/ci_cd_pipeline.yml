@@ -24,85 +24,60 @@ jobs:
       # 3. Install dependencies
       - name: Install dependencies
         run: |
-          echo "Verifica directory corrente:"
-          pwd
-          ls -l
-          echo "Installazione delle dipendenze..."
-          pip install --upgrade pip
-          pip install -r requirements.txt || echo "File requirements.txt non trovato. Installazione manuale..."
-          pip install pandas scikit-learn joblib numpy mlflow
-          echo "Pacchetti installati:"
-          pip list
-      # Debug Python environment
-      - name: Debug Python environment
-        run: |
-          echo "Python version and location:"
-          python --version
-          which python
-          echo "Installed packages:"
-          pip list
-      # 4. Ensure directories have proper permissions
-      - name: Ensure directory permissions
-        run: |
-          echo "Ensuring proper permissions for all directories..."
-          sudo mkdir -p mlruns mlartifacts logs
-          sudo chmod -R 777 mlruns
-          sudo chmod -R 777 mlartifacts
-          sudo chmod -R 777 logs
-          ls -ld mlruns mlartifacts logs
+          pip install -r requirements.txt
 
-      # 5. Train model
+      # 4. Train model
       - name: Train model
         run: |
-          echo "Starting training process..."
-          sudo python train.py
+          python train.py
 
-      # 6. Debug file status before committing logs
+      # 5. Debug file status before committing logs
       - name: Debug file status before committing logs
         run: |
-          echo "Debugging file status before commit..."
-          ls -l logs/
+          echo "Debugging file status before commit:"
           git status
+          ls -l logs/
 
-      # 7. Check ignored files
+      # 6. Check ignored files
       - name: Check ignored files
         run: |
-          echo "Checking if logs/*.txt are ignored..."
-          git check-ignore logs/*.txt || echo "No files in logs/ are ignored."
+          echo "Checking if logs/*.txt are ignored:"
+          git check-ignore logs/*.txt || echo "No files in logs/ are ignored"
 
-      # 8. Stage log files
+      # 7. Stage log files
       - name: Stage log files
         run: |
-          echo "Staging log files..."
+          echo "Staging log files:"
           git add logs/*.txt
           git status
 
-      # 9. Commit and push updated logs
+      # 8. Commit and push updated logs
       - name: Commit and push updated logs
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          echo "Configuring Git..."
+          echo "Configuring Git"
           git config --global user.email "elqadyahmed@gmail.com"
           git config --global user.name "AHMADELQADY"
-          echo "Committing and pushing logs..."
+          echo "Forcing add and commit logs"
           git add logs/*.txt
-          git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit."
+          git commit -m "Updated logs after CI/CD execution" || echo "No changes to commit"
+          echo "Pushing changes to remote repository"
           git remote set-url origin https://AHMADELQADY:${{ secrets.GH_PAT }}@github.com/AHMADELQADY/beer-match-project.git
-          git push origin main || echo "Push failed, please check permissions."
+          git push origin main || echo "Push failed, please check permissions"
 
-      # 10. Debug permissions and remote
+      # 9. Debug permissions and remote
       - name: Debug permissions and remote
         run: |
-          echo "Debugging Git Remote and Permissions..."
+          echo "Debugging Git Remote and Permissions:"
           git remote -v
           git config --list
 
-      # 11. Debug after push
+      # 10. Debug after push
       - name: Verify after push
         run: |
-          echo "Verifying state after push..."
+          echo "Verifying state after push:"
           git status
-          echo "Checking last commit..."
+          echo "Checking last commit:"
           git log -1
           ls -l logs/
