@@ -15,6 +15,11 @@ from mlflow.models.signature import infer_signature
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
 
+# 📂 Configurazione della directory di tracciamento di MLflow
+mlflow_tracking_dir = os.path.join(os.getcwd(), "mlruns")
+os.makedirs(mlflow_tracking_dir, exist_ok=True)
+mlflow.set_tracking_uri(f"file://{mlflow_tracking_dir}")
+
 # 🔍 Configurazione del logger per il training
 logging.basicConfig(
     filename=os.path.join(log_dir, "training_log.txt"),
@@ -48,11 +53,11 @@ X = X.astype(float)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # 🏆 6. MLflow Setup
-mlflow.set_tracking_uri("file:./mlruns")  # Salva localmente gli artefatti nella directory "mlruns"
 mlflow.set_experiment("BeerMatch_Model_Tracking")
 
 # Creare un esempio di input
 input_example = X_test.iloc[:1]  # Un esempio reale
+signature = infer_signature(X_train, model.predict(X_train) if 'model' in locals() else X_train)
 
 with mlflow.start_run():
     # 🤖 7. Addestramento del modello
@@ -66,23 +71,20 @@ with mlflow.start_run():
     recall = recall_score(y_test, y_pred, average="weighted")
     f1 = f1_score(y_test, y_pred, average="weighted")
 
-    # 🔑 9. Creare la firma del modello
-    signature = infer_signature(X_train, y_pred)  # Firma basata sui dati di input e predizioni
-
-    # 💾 10. Salvare il modello addestrato
+    # 💾 9. Salvare il modello addestrato
     joblib.dump(model, "random_forest_beer_model.pkl")
 
-    # 📡 11. Logging su MLflow
+    # 📡 10. Logging su MLflow
     mlflow.log_param("n_estimators", 100)
     mlflow.log_metric("accuracy", accuracy)
     mlflow.log_metric("precision", precision)
     mlflow.log_metric("recall", recall)
     mlflow.log_metric("f1_score", f1)
 
-    # 📝 12. Loggare le metriche nel file di log
+    # 📝 11. Loggare le metriche nel file di log
     logging.info(f"Training completato - Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1-score: {f1:.4f}")
 
-    # 🚀 13. Salvare il modello su MLflow con firma e esempio
+    # 🚀 12. Salvare il modello su MLflow con firma e esempio
     mlflow.sklearn.log_model(
         sk_model=model,
         artifact_path="beer_match_model",

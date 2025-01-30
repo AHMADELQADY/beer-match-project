@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/4be99c1cb0d14436a5fbd23b3d4e8669/artifacts
+end_time: 1738233964572
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: 4be99c1cb0d14436a5fbd23b3d4e8669
+run_name: legendary-pug-289
+run_uuid: 4be99c1cb0d14436a5fbd23b3d4e8669
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738233963027
+status: 3
+tags: []
+user_id: ae
