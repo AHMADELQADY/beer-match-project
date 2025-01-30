@@ -4,8 +4,5 @@
 # Cartelle di cache di Python
 __pycache__/
 
-# File generati automaticamente
-*.pyc
-*.pyo
 
 
