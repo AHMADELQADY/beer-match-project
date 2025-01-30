@@ -43,7 +43,7 @@ for col in categorical_columns:
     label_encoders[col] = le  # Salviamo i LabelEncoders per l'inferenza
 
 # 🔥 3. Salvare gli encoder per usarli durante l’inferenza
-joblib.dump(label_encoders, "label_encoders.pkl")
+joblib.dump(label_encoders, os.path.join(artifact_dir, "label_encoders.pkl"))
 
 # 🔄 4. Separazione delle feature e del target
 X = df.drop(columns=["Tipo di birra"])  # Feature set
@@ -58,10 +58,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 # 🏆 6. MLflow Setup
 mlflow.set_experiment("BeerMatch_Model_Tracking")
 
-# Creare un esempio di input
-input_example = X_test.iloc[:1]  # Un esempio reale
-signature = infer_signature(X_train, model_output=None)  # Firma basata sui dati di input
-
 with mlflow.start_run():
     # 🤖 7. Addestramento del modello
     model = RandomForestClassifier(n_estimators=100, random_state=42)
@@ -73,6 +69,10 @@ with mlflow.start_run():
     precision = precision_score(y_test, y_pred, average="weighted")
     recall = recall_score(y_test, y_pred, average="weighted")
     f1 = f1_score(y_test, y_pred, average="weighted")
+
+    # Creare un esempio di input e inferire la firma
+    input_example = X_test.iloc[:1]  # Un esempio reale
+    signature = infer_signature(X_train, model.predict(X_train))  # Firma basata sui dati di input e output
 
     # 💾 9. Salvare il modello addestrato
     model_path = os.path.join(artifact_dir, "random_forest_beer_model.pkl")

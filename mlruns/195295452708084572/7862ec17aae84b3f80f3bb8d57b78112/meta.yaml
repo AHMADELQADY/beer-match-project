@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/7862ec17aae84b3f80f3bb8d57b78112/artifacts
+end_time: 1738234876796
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: 7862ec17aae84b3f80f3bb8d57b78112
+run_name: useful-sheep-258
+run_uuid: 7862ec17aae84b3f80f3bb8d57b78112
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738234875245
+status: 3
+tags: []
+user_id: ae
