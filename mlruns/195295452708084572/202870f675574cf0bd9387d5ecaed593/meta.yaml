@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/202870f675574cf0bd9387d5ecaed593/artifacts
+end_time: 1738241225880
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: 202870f675574cf0bd9387d5ecaed593
+run_name: gregarious-trout-699
+run_uuid: 202870f675574cf0bd9387d5ecaed593
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738241224278
+status: 3
+tags: []
+user_id: ae
