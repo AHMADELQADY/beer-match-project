@@ -27,29 +27,31 @@ jobs:
           echo "Installing dependencies..."
           pip install --upgrade pip
           pip install -r requirements.txt
+          echo "Installed packages:"
+          pip list
 
       # 4. Ensure directories have proper permissions
       - name: Ensure directory permissions
         run: |
           echo "Ensuring proper permissions for all directories..."
-          sudo mkdir -p mlruns mlartifacts logs
-          sudo chmod -R 777 mlruns
-          sudo chmod -R 777 mlartifacts
-          sudo chmod -R 777 logs
+          mkdir -p mlruns mlartifacts logs
+          chmod -R 755 mlruns
+          chmod -R 755 mlartifacts
+          chmod -R 755 logs
           ls -ld mlruns mlartifacts logs
 
       # 5. Train model
       - name: Train model
         run: |
           echo "Starting training process..."
-          sudo python train.py
+          python train.py
 
       # 6. Debug file status before committing logs
       - name: Debug file status before committing logs
         run: |
           echo "Debugging file status before commit..."
-          ls -l logs/
           git status
+          ls -l logs/
 
       # 7. Check ignored files
       - name: Check ignored files
