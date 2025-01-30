@@ -2,6 +2,8 @@ import logging
 import os
 import pandas as pd
 import joblib
+import mlflow
+import mlflow.sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -40,21 +42,35 @@ y = df["Tipo di birra"]  # Target
 # ✂️ 5. Divisione in training e test
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# 🤖 6. Addestramento del modello
-model = RandomForestClassifier(n_estimators=100, random_state=42)
-model.fit(X_train, y_train)
+# 🏆 6. MLflow Setup
+mlflow.set_experiment("BeerMatch_Model_Tracking")
 
-# 📊 7. Valutazione del modello
-y_pred = model.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
-precision = precision_score(y_test, y_pred, average="weighted")
-recall = recall_score(y_test, y_pred, average="weighted")
-f1 = f1_score(y_test, y_pred, average="weighted")
+with mlflow.start_run():
+    # 🤖 7. Addestramento del modello
+    model = RandomForestClassifier(n_estimators=100, random_state=42)
+    model.fit(X_train, y_train)
 
-# 💾 8. Salvare il modello addestrato
-joblib.dump(model, "random_forest_beer_model.pkl")
+    # 📊 8. Valutazione del modello
+    y_pred = model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred, average="weighted")
+    recall = recall_score(y_test, y_pred, average="weighted")
+    f1 = f1_score(y_test, y_pred, average="weighted")
 
-# 📝 9. Loggare le metriche del training
-logging.info(f"Training completato - Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1-score: {f1:.4f}")
+    # 💾 9. Salvare il modello addestrato
+    joblib.dump(model, "random_forest_beer_model.pkl")
 
-print("✔ Training completato con successo. Log salvato in logs/training_log.txt")
+    # 📡 10. Logging su MLflow
+    mlflow.log_param("n_estimators", 100)
+    mlflow.log_metric("accuracy", accuracy)
+    mlflow.log_metric("precision", precision)
+    mlflow.log_metric("recall", recall)
+    mlflow.log_metric("f1_score", f1)
+
+    # 📝 11. Loggare le metriche nel file di log
+    logging.info(f"Training completato - Accuracy: {accuracy:.4f}, Precision: {precision:.4f}, Recall: {recall:.4f}, F1-score: {f1:.4f}")
+
+    # 🚀 12. Salvare il modello su MLflow
+    mlflow.sklearn.log_model(model, "beer_match_model")
+
+print("✔ Training completato con successo. Log salvato in logs/training_log.txt e MLflow.")
