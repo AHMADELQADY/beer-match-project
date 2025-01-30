@@ -25,7 +25,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-
+      # 4. Set permissions for the entire project
+      - name: Set permissions for the entire project
+        run: |
+          echo "Setting permissions for the project root..."
+          sudo chmod -R 777 .
+          ls -la
       # 4. Train model
       - name: Train model
         run: |
