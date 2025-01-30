@@ -28,9 +28,20 @@ jobs:
       # Passaggio aggiuntivo per assicurare i permessi
       - name: Set directory permissions
         run: |
+          echo "Setting permissions for the project root..."
+          chmod -R 777 ./
+          ls -ld ./ 
+          echo "Setting up directories and permissions..."
           mkdir -p ./mlruns ./mlartifacts ./logs
           chmod -R 777 ./mlruns ./mlartifacts ./logs
-          ls -ld ./mlruns ./mlartifacts ./logs    
+          ls -ld ./mlruns ./mlartifacts ./logs
+
+      # Debug permissions
+      - name: Debug permissions
+        run: |
+          echo "Checking directory permissions..."
+          ls -ld . ./mlruns ./mlartifacts ./logs
+          whoami        
       # 4. Train model
       - name: Train model
         run: |
