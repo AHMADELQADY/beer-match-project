@@ -30,6 +30,11 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+# ✅ Assicurati che le directory abbiano i permessi appropriati
+os.chmod(tracking_dir, 0o777)
+os.chmod(artifact_dir, 0o777)
+os.chmod(log_dir, 0o777)
+
 # 📥 1. Caricare il dataset
 df = pd.read_csv("cibo_birra_dataset_completo.csv")
 
