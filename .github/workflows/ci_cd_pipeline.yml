@@ -24,9 +24,15 @@ jobs:
       # 3. Install dependencies
       - name: Install dependencies
         run: |
-          echo "Installing dependencies..."
+          echo "Verifica directory corrente:"
+          pwd
+          ls -l
+          echo "Installazione delle dipendenze..."
           pip3 install --upgrade pip
-          pip3 install -r requirements.txt
+          pip3 install -r requirements.txt || echo "File requirements.txt non trovato. Installazione manuale..."
+          pip3 install pandas scikit-learn joblib numpy mlflow
+          echo "Pacchetti installati:"
+          pip3 list
 
       # 4. Ensure directories have proper permissions
       - name: Ensure directory permissions
