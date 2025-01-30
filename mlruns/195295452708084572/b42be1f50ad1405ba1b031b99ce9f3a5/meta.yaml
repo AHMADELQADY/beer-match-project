@@ -1,0 +1,15 @@
+artifact_uri: /Users/ae/Desktop/Beer_Match_Project/mlruns/195295452708084572/b42be1f50ad1405ba1b031b99ce9f3a5/artifacts
+end_time: 1738235181608
+entry_point_name: ''
+experiment_id: '195295452708084572'
+lifecycle_stage: active
+run_id: b42be1f50ad1405ba1b031b99ce9f3a5
+run_name: tasteful-stork-792
+run_uuid: b42be1f50ad1405ba1b031b99ce9f3a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738235180061
+status: 3
+tags: []
+user_id: ae

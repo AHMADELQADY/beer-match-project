@@ -12,15 +12,16 @@ from sklearn.preprocessing import LabelEncoder
 from mlflow.models.signature import infer_signature
 
 # 📂 Configura la directory per il tracking di MLflow
-tracking_dir = os.path.join(os.getcwd(), "mlruns")  # Directory per i dati di tracking
-artifact_dir = os.path.join(os.getcwd(), "mlartifacts")  # Directory per gli artifact
+project_path = "/Users/ae/Desktop/Beer_Match_Project"  # Cambia con il tuo percorso
+tracking_dir = os.path.join(project_path, "mlruns")  # Directory per i dati di tracking
+artifact_dir = os.path.join(project_path, "mlartifacts")  # Directory per gli artifact
 os.makedirs(tracking_dir, exist_ok=True)
 os.makedirs(artifact_dir, exist_ok=True)
 
 mlflow.set_tracking_uri(f"file://{tracking_dir}")
 
 # 📂 Creazione della cartella per i log
-log_dir = "logs"
+log_dir = os.path.join(project_path, "logs")
 os.makedirs(log_dir, exist_ok=True)
 
 # 🔍 Configurazione del logger per il training
@@ -31,7 +32,7 @@ logging.basicConfig(
 )
 
 # 📥 1. Caricare il dataset
-df = pd.read_csv("cibo_birra_dataset_completo.csv")
+df = pd.read_csv(os.path.join(project_path, "cibo_birra_dataset_completo.csv"))
 
 # 🛠 2. Preprocessing: Convertire variabili categoriche in numeri
 categorical_columns = ["Colore", "Gusto", "Corpo/consistenza", "Carbonatazione", "Origine"]
