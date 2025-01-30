@@ -28,12 +28,19 @@ jobs:
           pwd
           ls -l
           echo "Installazione delle dipendenze..."
-          pip3 install --upgrade pip
-          pip3 install -r requirements.txt || echo "File requirements.txt non trovato. Installazione manuale..."
-          pip3 install pandas scikit-learn joblib numpy mlflow
+          pip install --upgrade pip
+          pip install -r requirements.txt || echo "File requirements.txt non trovato. Installazione manuale..."
+          pip install pandas scikit-learn joblib numpy mlflow
           echo "Pacchetti installati:"
-          pip3 list
-
+          pip list
+      # Debug Python environment
+      - name: Debug Python environment
+        run: |
+          echo "Python version and location:"
+          python --version
+          which python
+          echo "Installed packages:"
+          pip list
       # 4. Ensure directories have proper permissions
       - name: Ensure directory permissions
         run: |
