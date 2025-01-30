@@ -12,8 +12,8 @@ from sklearn.preprocessing import LabelEncoder
 from mlflow.models.signature import infer_signature
 
 # 📂 Configura la directory per il tracking di MLflow
-tracking_dir = os.path.join(os.getcwd(), "mlruns")
-artifact_dir = os.path.join(os.getcwd(), "mlartifacts")
+tracking_dir = os.path.join(os.getcwd(), "mlruns")  # Directory per i dati di tracking
+artifact_dir = os.path.join(os.getcwd(), "mlartifacts")  # Directory per gli artifact
 os.makedirs(tracking_dir, exist_ok=True)
 os.makedirs(artifact_dir, exist_ok=True)
 
