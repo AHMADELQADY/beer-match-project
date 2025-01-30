@@ -7,3 +7,4 @@ HEAD
 2025-01-30 11:13:11,925 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
 2025-01-30 11:18:37,497 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
  b921280 (Updated MLflow integration and model tracking)
+2025-01-30 11:41:32,435 - INFO - Training completato - Accuracy: 1.0000, Precision: 1.0000, Recall: 1.0000, F1-score: 1.0000
