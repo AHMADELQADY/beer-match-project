@@ -32,24 +32,24 @@ jobs:
       - name: Ensure directory permissions
         run: |
           echo "Ensuring proper permissions for all directories..."
-          mkdir -p mlruns mlartifacts logs
-          chmod -R 755 mlruns
-          chmod -R 755 mlartifacts
-          chmod -R 755 logs
+          sudo mkdir -p mlruns mlartifacts logs
+          sudo chmod -R 777 mlruns
+          sudo chmod -R 777 mlartifacts
+          sudo chmod -R 777 logs
           ls -ld mlruns mlartifacts logs
 
       # 5. Train model
       - name: Train model
         run: |
           echo "Starting training process..."
-          python train.py
+          sudo python train.py
 
       # 6. Debug file status before committing logs
       - name: Debug file status before committing logs
         run: |
           echo "Debugging file status before commit..."
-          git status
           ls -l logs/
+          git status
 
       # 7. Check ignored files
       - name: Check ignored files
