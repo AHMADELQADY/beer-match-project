@@ -15,8 +15,8 @@ from mlflow.models.signature import infer_signature
 log_dir = "logs"
 os.makedirs(log_dir, exist_ok=True)
 
-# 📂 Configurazione della directory di tracciamento di MLflow
-mlflow_tracking_dir = os.path.join(os.getcwd(), "mlruns")
+# 📂 Configurazione della directory di tracking di MLflow
+mlflow_tracking_dir = os.path.join(os.getcwd(), "mlruns")  # Directory locale
 os.makedirs(mlflow_tracking_dir, exist_ok=True)
 mlflow.set_tracking_uri(f"file://{mlflow_tracking_dir}")
 
