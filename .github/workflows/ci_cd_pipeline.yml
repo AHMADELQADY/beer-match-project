@@ -31,6 +31,11 @@ jobs:
           echo "Setting permissions for the project root..."
           sudo chmod -R 777 .
           ls -la
+      - name: Ensure permissions for all project directories
+        run: |
+          echo "Setting proper permissions for project directories..."
+          chmod -R 777 .
+          ls -ld .    
       # 4. Train model
       - name: Train model
         run: |
